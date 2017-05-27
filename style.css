@@ -1,0 +1,25 @@
+#navndiv {
+  font-size: 8em;
+  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+#knappen {
+  background-color: #008CBA;
+  font-size: 3em;
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding: 10px 24px;
+  border-radius: 12px;
+}
+
+#kontrolldiv {
+  margin: auto;
+  margin-top: 30px;
+  width: 50%;
+  text-align: center;
+}
