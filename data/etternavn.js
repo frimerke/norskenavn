@@ -412,5 +412,221 @@ var etternavn = [
     "klasse": "geografisk",
     "stavelser": 2,
     "antall": 5706
+  },
+  {
+    "navn": "Fredriksen",
+    "klasse": "paternalt",
+    "stavelser": 3,
+    "antall": 6777
+  },
+  {
+    "navn": "Wingerei",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 52
+  },
+  {
+    "navn": "Lyngmo",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 286
+  },
+  {
+    "navn": "Gundersen",
+    "klasse": "paternalt",
+    "stavelser": 3,
+    "antall": 10188
+  },
+  {
+    "navn": "Nyberg",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 933
+  },
+  {
+    "navn": "Åkerlund",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 57
+  },
+  {
+    "navn": "Andersen",
+    "klasse": "paternalt",
+    "stavelser": 3,
+    "antall": 36805
+  },
+  {
+    "navn": "Reigstad",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 525
+  },
+  {
+    "navn": "Asp",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 284
+  },
+  {
+    "navn": "Risinggård",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 32
+  },
+  {
+    "navn": "Pedersen",
+    "klasse": "paternalt",
+    "stavelser": 3,
+    "antall": 34907
+  },
+  {
+    "navn": "Wilhelmsen",
+    "klasse": "paternalt",
+    "stavelser": 3,
+    "antall": 3189
+  },
+  {
+    "navn": "Mørland",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 214
+  },
+  {
+    "navn": "Lykke",
+    "klasse": "ukjent",
+    "stavelser": 2,
+    "antall": 160
+  },
+  {
+    "navn": "Øyen",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 1335
+  },
+  {
+    "navn": "Bærø",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 84
+  },
+  {
+    "navn": "Morell",
+    "klasse": "ukjent",
+    "stavelser": 2,
+    "antall": 9
+  },
+  {
+    "navn": "Venger",
+    "klasse": "ukjent",
+    "stavelser": 2,
+    "antall": 31
+  },
+  {
+    "navn": "Darre",
+    "klasse": "ukjent",
+    "stavelser": 2,
+    "antall": 55
+  },
+  {
+    "navn": "Hornsrud",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 4
+  },
+  {
+    "navn": "Bull",
+    "klasse": "ukjent",
+    "stavelser": 1,
+    "antall": 723
+  },
+  {
+    "navn": "Steinnes",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 525
+  },
+  {
+    "navn": "Holmboe",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 171
+  },
+  {
+    "navn": "Alvestad",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 872
+  },
+  {
+    "navn": "Nilsen",
+    "klasse": "paternalt",
+    "stavelser": 2,
+    "antall": 34415
+  },
+  {
+    "navn": "Nygaardsvold",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 8
+  },
+  {
+    "navn": "Madsen",
+    "klasse": "paternalt",
+    "stavelser": 2,
+    "antall": 3811
+  },
+  {
+    "navn": "Lund",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 11187
+  },
+  {
+    "navn": "Sunde",
+    "klasse": "ukjent",
+    "stavelser": 2,
+    "antall": 3661
+  },
+  {
+    "navn": "Aarstad",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 605
+  },
+  {
+    "navn": "Hasund",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 212
+  },
+  {
+    "navn": "Værland",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 57
+  },
+  {
+    "navn": "Oftedal",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 896
+  },
+  {
+    "navn": "Mjelde",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 942
+  },
+  {
+    "navn": "Kolstad",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 2191
+  },
+  {
+    "navn": "Trædal",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 184
   }
 ]
