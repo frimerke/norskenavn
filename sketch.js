@@ -52,6 +52,14 @@ function makename() {
         }
       }
   }
+  var midlertidig_fornavn = []
+  for (na of fornavn) {
+    if (na.stavelser > min_etternavn_stavelser) {
+      if (na.antall < max_antall.value() && na.antall > min_antall.value()) {
+      midlertidig_fornavn.push(na);
+        }
+      }
+  }
 
   if (gender.value() == "maskuline") {
     var i = 0;
@@ -73,7 +81,7 @@ function makename() {
     var i = 0;
     var nyttfornavn = ""
     while (i < antall_fornavn.value()) {
-      nyttfornavn = nyttfornavn + " " + fornavn[Math.floor(Math.random() * fornavn.length)].navn;
+      nyttfornavn = nyttfornavn + " " + midlertidig_fornavn[Math.floor(Math.random() * midlertidig_fornavn.length)].navn;
       i++;
     }
   }
