@@ -8,7 +8,7 @@
 }
 
 #knappen {
-  background-color: #008CBA;
+  background-color: #60baf7;
   font-size: 3em;
   display: block;
   margin: auto;
@@ -22,4 +22,16 @@
   margin-top: 30px;
   width: 50%;
   text-align: center;
+}
+
+.kategori {
+  background-color: #60baf7;
+  border-radius: 8px;
+}
+
+.gardinboks {
+  border: solid;
+  border-color: #60baf7;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

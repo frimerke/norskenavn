@@ -17,8 +17,17 @@ function setup() {
   antall_fornavn = select("#antall_fornavn");
   antall_etternavn = select("#antall_etternavn");
 
-  min_antall = select("#min_antall");
-  max_antall = select("#max_antall");
+  min_antall_fornavn = select("#min_antall_fornavn");
+  max_antall_fornavn = select("#max_antall_fornavn");
+  min_antall_etternavn = select("#min_antall_etternavn");
+  max_antall_etternavn = select("#max_antall_etternavn");
+
+  $( function() {
+  $( "#gardin" ).accordion({
+    collapsible: true,
+    active: false
+  });
+} );
 
   makename();
   console.log(fornavn_menn.length + " mannsnavn, " + fornavn_kvinner.length + " kvinnenavn, " + etternavn.length + " etternavn.");
@@ -42,7 +51,7 @@ function makename() {
   var midlertidig_etternavn = []
   for (na of etternavn) {
     if (na.stavelser > min_etternavn_stavelser) {
-      if (na.antall < max_antall.value() && na.antall > min_antall.value()) {
+      if (na.antall < max_antall_etternavn.value() && na.antall > min_antall_etternavn.value()) {
       midlertidig_etternavn.push(na);
         }
       }
@@ -51,7 +60,7 @@ function makename() {
   var midlertidig_fornavn = []
   for (na of fornavn) {
     if (na.stavelser > min_etternavn_stavelser) {
-      if (na.antall < max_antall.value() && na.antall > min_antall.value()) {
+      if (na.antall < max_antall_fornavn.value() && na.antall > min_antall_fornavn.value()) {
       midlertidig_fornavn.push(na);
         }
       }
