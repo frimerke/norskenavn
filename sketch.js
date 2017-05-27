@@ -12,6 +12,7 @@ function setup() {
   gender.option("maskuline");
   gender.option("feminine");
   gender.option("begge");
+  gender.option("kjønnsnøytrale");
   gender.value("begge");
 
   antall_fornavn = select("#antall_fornavn");
@@ -27,7 +28,7 @@ function setup() {
     collapsible: true,
     active: false
   });
-} );
+  } );
 
   makename();
   console.log(fornavn_menn.length + " mannsnavn, " + fornavn_kvinner.length + " kvinnenavn, " + etternavn.length + " etternavn.");
@@ -36,7 +37,8 @@ function setup() {
 
 function makename() {
   var min_etternavn_stavelser = 0;
-  var genderlist = [fornavn_menn, fornavn_kvinner]
+
+  var genderlist = [fornavn_menn, fornavn_kvinner, fornavn_felles]
 
   if (gender.value() == "maskuline") {
     fornavn = genderlist[0];
@@ -44,9 +46,14 @@ function makename() {
   else if (gender.value() == "feminine") {
     fornavn = genderlist[1];
   }
-  else {
-    var fornavn = genderlist[Math.floor(Math.random() * genderlist.length)]
+  else if (gender.value() == "kjønnsnøytrale") {
+    fornavn = genderlist[2];
   }
+  else {
+    var fornavn = genderlist[Math.floor(Math.random() * 2)]
+  }
+
+  fornavn = fornavn.concat(genderlist[2]);
 
   var midlertidig_etternavn = []
   for (na of etternavn) {
@@ -68,9 +75,14 @@ function makename() {
 
   var i = 0;
   var nyttfornavn = ""
+  var fornavnliste = []
   while (i < antall_fornavn.value()) {
-    nyttfornavn = nyttfornavn + " " + midlertidig_fornavn[Math.floor(Math.random() * midlertidig_fornavn.length)].navn;
-    i++;
+    namekey = Math.floor(Math.random() * midlertidig_fornavn.length)
+    if (fornavnliste.indexOf(midlertidig_fornavn[namekey].navn) == -1 ){
+      fornavnliste.push(midlertidig_fornavn[namekey].navn);
+      nyttfornavn = nyttfornavn + " " + midlertidig_fornavn[namekey].navn;
+      i++;
+    }
   }
 
   var i = 0;
