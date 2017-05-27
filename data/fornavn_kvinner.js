@@ -546,5 +546,11 @@ var fornavn_kvinner = [
     "stavelser": 2,
     "antall": 16759,
     "topp": 1930
+  },
+  {
+    "navn": "Helene",
+    "stavelser": 3,
+    "antall": 10935,
+    "topp": 1990
   }
 ]

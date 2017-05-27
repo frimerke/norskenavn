@@ -21,12 +21,23 @@ function setup() {
   max_antall = select("#max_antall");
 
   makename();
+  console.log(fornavn_menn.length + " mannsnavn, " + fornavn_kvinner.length + " kvinnenavn, " + etternavn.length + " etternavn.");
 }
 
 
 function makename() {
   var min_etternavn_stavelser = 0;
-  var fornavn = fornavn_kvinner.concat(fornavn_menn);
+  var genderlist = [fornavn_menn, fornavn_kvinner]
+
+  if (gender.value() == "maskuline") {
+    fornavn = genderlist[0];
+  }
+  else if (gender.value() == "feminine") {
+    fornavn = genderlist[1];
+  }
+  else {
+    var fornavn = genderlist[Math.floor(Math.random() * genderlist.length)]
+  }
 
   var midlertidig_etternavn = []
   for (na of etternavn) {
@@ -36,22 +47,7 @@ function makename() {
         }
       }
   }
-  var midlertidig_fornavn_menn = []
-  for (na of fornavn_menn) {
-    if (na.stavelser > min_etternavn_stavelser) {
-      if (na.antall < max_antall.value() && na.antall > min_antall.value()) {
-      midlertidig_fornavn_menn.push(na);
-        }
-      }
-  }
-  var midlertidig_fornavn_kvinner = []
-  for (na of fornavn_kvinner) {
-    if (na.stavelser > min_etternavn_stavelser) {
-      if (na.antall < max_antall.value() && na.antall > min_antall.value()) {
-      midlertidig_fornavn_kvinner.push(na);
-        }
-      }
-  }
+
   var midlertidig_fornavn = []
   for (na of fornavn) {
     if (na.stavelser > min_etternavn_stavelser) {
@@ -61,29 +57,11 @@ function makename() {
       }
   }
 
-  if (gender.value() == "maskuline") {
-    var i = 0;
-    var nyttfornavn = ""
-    while (i < antall_fornavn.value()) {
-      nyttfornavn = nyttfornavn + " " + midlertidig_fornavn_menn[Math.floor(Math.random() * midlertidig_fornavn_menn.length)].navn;
-      i++;
-    }
-  }
-  else if (gender.value() == "feminine") {
-    var i = 0;
-    var nyttfornavn = ""
-    while (i < antall_fornavn.value()) {
-      nyttfornavn = nyttfornavn + " " + midlertidig_fornavn_kvinner[Math.floor(Math.random() * midlertidig_fornavn_kvinner.length)].navn;
-      i++;
-    }
-  }
-  else {
-    var i = 0;
-    var nyttfornavn = ""
-    while (i < antall_fornavn.value()) {
-      nyttfornavn = nyttfornavn + " " + midlertidig_fornavn[Math.floor(Math.random() * midlertidig_fornavn.length)].navn;
-      i++;
-    }
+  var i = 0;
+  var nyttfornavn = ""
+  while (i < antall_fornavn.value()) {
+    nyttfornavn = nyttfornavn + " " + midlertidig_fornavn[Math.floor(Math.random() * midlertidig_fornavn.length)].navn;
+    i++;
   }
 
   var i = 0;

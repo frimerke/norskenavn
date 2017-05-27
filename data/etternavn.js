@@ -628,5 +628,431 @@ var etternavn = [
     "klasse": "geografisk",
     "stavelser": 2,
     "antall": 184
+  },
+  {
+    "navn": "Lindboe",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 164
+  },
+  {
+    "navn": "Sundby",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 1347
+  },
+  {
+    "navn": "Langeland",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 2144
+  },
+  {
+    "navn": "Garstad",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 183
+  },
+  {
+    "navn": "Kirkeby",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 0
+  },
+  {
+    "navn": "Vik",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 5000
+  },
+  {
+    "navn": "Hunseid",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 0
+  },
+  {
+    "navn": "Braadland",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 186
+  },
+  {
+    "navn": "Liestøl",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 136
+  },
+  {
+    "navn": "Kobro",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 85
+  },
+  {
+    "navn": "Jahn",
+    "klasse": "ukjent",
+    "stavelser": 1,
+    "antall": 51
+  },
+  {
+    "navn": "Meling",
+    "klasse": "ukjent",
+    "stavelser": 2,
+    "antall": 1182
+  },
+  {
+    "navn": "Five",
+    "klasse": "ukjent",
+    "stavelser": 2,
+    "antall": 123
+  },
+  {
+    "navn": "Strøm",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 4468
+  },
+  {
+    "navn": "Utheim",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 369
+  },
+  {
+    "navn": "Hjelmtveit",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 150
+  },
+  {
+    "navn": "Tveit",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 4010
+  },
+  {
+    "navn": "Lie",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 7451
+  },
+  {
+    "navn": "Wold",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 3385
+  },
+  {
+    "navn": "Voll",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 945
+  },
+  {
+    "navn": "Koht",
+    "klasse": "utkjent",
+    "stavelser": 1,
+    "antall": 50
+  },
+  {
+    "navn": "Torp",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 2194
+  },
+  {
+    "navn": "Indrebø",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 407
+  },
+  {
+    "navn": "Bergsvik",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 224
+  },
+  {
+    "navn": "Støstad",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 16
+  },
+  {
+    "navn": "Frihagen",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 18
+  },
+  {
+    "navn": "Hindahl",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 52
+  },
+  {
+    "navn": "Hartmann",
+    "klasse": "ukjent",
+    "stavelser": 2,
+    "antall": 372
+  },
+  {
+    "navn": "Ystgaard",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 66
+  },
+  {
+    "navn": "Hagelin",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 73
+  },
+  {
+    "navn": "Lunde",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 6920
+  },
+  {
+    "navn": "Fuglesang",
+    "klasse": "ukjent",
+    "stavelser": 3,
+    "antall": 195
+  },
+  {
+    "navn": "Stang",
+    "klasse": "ukjent",
+    "stavelser": 1,
+    "antall": 643
+  },
+  {
+    "navn": "Gerhardsen",
+    "klasse": "paternalt",
+    "stavelser": 3,
+    "antall": 525
+  },
+  {
+    "navn": "Cappelen",
+    "klasse": "ukjent",
+    "stavelser": 3,
+    "antall": 256
+  },
+  {
+    "navn": "Fostervoll",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 91
+  },
+  {
+    "navn": "Frogner",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 508
+  },
+  {
+    "navn": "Evensen",
+    "klasse": "paternalt",
+    "stavelser": 3,
+    "antall": 5974
+  },
+  {
+    "navn": "Offenberg",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 49
+  },
+  {
+    "navn": "Gabrielsen",
+    "klasse": "paternalt",
+    "stavelser": 4,
+    "antall": 3077
+  },
+  {
+    "navn": "Skjønsberg",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 159
+  },
+  {
+    "navn": "Strand",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 9836
+  },
+  {
+    "navn": "Hansteen",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 145
+  },
+  {
+    "navn": "Lange",
+    "klasse": "ukjent",
+    "stavelser": 2,
+    "antall": 1036
+  },
+  {
+    "navn": "Hønsvald",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 0
+  },
+  {
+    "navn": "Moen",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 10248
+  },
+  {
+    "navn": "Drogseth",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 40
+  },
+  {
+    "navn": "Aasland",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 1047
+  },
+  {
+    "navn": "Fjeld",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 2558
+  },
+  {
+    "navn": "Holt",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 1569
+  },
+  {
+    "navn": "Langhelle",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 409
+  },
+  {
+    "navn": "Brofoss",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 18
+  },
+  {
+    "navn": "Meisdalshagen",
+    "klasse": "geografisk",
+    "stavelser": 4,
+    "antall": 7
+  },
+  {
+    "navn": "Hauge",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 6337
+  },
+  {
+    "navn": "Olsen",
+    "klasse": "paternalt",
+    "stavelser": 2,
+    "antall": 48833
+  },
+  {
+    "navn": "Bratteli",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 160
+  },
+  {
+    "navn": "Handal",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 105
+  },
+  {
+    "navn": "Knudsen",
+    "klasse": "paternalt",
+    "stavelser": 2,
+    "antall": 6202
+  },
+  {
+    "navn": "Sjaastad",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 218
+  },
+  {
+    "navn": "Berge",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 6865
+  },
+  {
+    "navn": "Skau",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 563
+  },
+  {
+    "navn": "Skogly",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 427
+  },
+  {
+    "navn": "Bjerkholt",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 179
+  },
+  {
+    "navn": "Gjærevoll",
+    "klasse": "geografisk",
+    "stavelser": 3,
+    "antall": 20
+  },
+  {
+    "navn": "Sivertsen",
+    "klasse": "paternalt",
+    "stavelser": 3,
+    "antall": 5659
+  },
+  {
+    "navn": "Holler",
+    "klasse": "ukjent",
+    "stavelser": 2,
+    "antall": 41
+  },
+  {
+    "navn": "Skaug",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 1652
+  },
+  {
+    "navn": "Lysø",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 364
+  },
+  {
+    "navn": "Lid",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 1227
+  },
+  {
+    "navn": "Bråthen",
+    "klasse": "geografisk",
+    "stavelser": 2,
+    "antall": 3374
+  },
+  {
+    "navn": "Bøe",
+    "klasse": "geografisk",
+    "stavelser": 1,
+    "antall": 4251
   }
 ]
