@@ -1,5 +1,10 @@
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
 #navndiv {
   font-size: 8em;
+  font-family: 'Merriweather', serif;
   margin: auto;
   margin-top: 8%;
   margin-bottom: 40px;
@@ -10,6 +15,7 @@
 #knappen {
   background-color: #60baf7;
   font-size: 3em;
+  font-family: 'Dosis', sans-serif;
   display: block;
   margin: auto;
   width: 20%;
