@@ -44,6 +44,9 @@ function setup() {
   });
   } );
 
+  $('#navndiv').textfill({
+  });
+
   makename();
   oppdater_label();
   listestatus = select("#listestatus");
@@ -143,6 +146,6 @@ function makename() {
     }
   }
 
-  namediv.html(nyttfornavn + nyttetternavn);
+  namediv.html("<span>" + nyttfornavn + nyttetternavn + "</span>");
   return nyttfornavn + nyttetternavn;
 }

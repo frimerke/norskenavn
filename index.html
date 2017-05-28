@@ -1,26 +1,25 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Norske navn Navnegenerator</title>
+  <title>nyttnavn.no - Navnegenerator og babynavn</title>
   <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
-  <!-- uncomment lines below to include extra p5 libraries -->
   <script language="javascript" src="libraries/p5.dom.js"></script>
-  <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
   <script language="javascript" type="text/javascript" src="sketch.js"></script>
-  <!-- this line removes any default padding and style. you might only need one of these values set. -->
   <style> body {padding: 0; margin: 0;} </style>
-  <link href="https://fonts.googleapis.com/css?family=Dosis|Merriweather|Concert+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Merriweather+Sans" rel="stylesheet">
   <script language="javascript" type="text/javascript" src="data/etternavn.js"></script>
   <script language="javascript" type="text/javascript" src="data/fornavn_menn.js"></script>
   <script language="javascript" type="text/javascript" src="data/fornavn_kvinner.js"></script>
   <script language="javascript" type="text/javascript" src="data/fornavn_felles.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="libraries/jquery.textfill.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
+  <span id="logo">nyttnavn.no</span>
   <div id="navndiv"></div>
 
   <div id="knappdiv">
@@ -29,7 +28,7 @@
   </div>
 
   <div id="kontrolldiv">
-    <p style="color:white;"><b>Innstillinger:</b></p>
+    <p><b>Innstillinger:</b></p>
     <div id="gardin">
 
     <h1 class="kategori">Fornavn ➠</h1>
@@ -64,6 +63,7 @@
     </div>
     </div>
     <em><p id="listestatus" style></p></em>
+    <p>Kontakt: Roald Karlsen - frimerke æt gmail dått com</p>
   </div>
 
 

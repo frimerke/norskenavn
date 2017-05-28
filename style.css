@@ -5,12 +5,20 @@ body {
 #navndiv {
   font-size: 7em;
   color: black;
-  font-family: 'Concert One', cursive;
+  font-family: 'Merriweather Sans', cursive;
   margin: auto;
-  margin-top: 8%;
+  margin-top: 3%;
   margin-bottom: 40px;
   width: 100%;
+  /*height: 30%;*/
   text-align: center;
+}
+
+#logo {
+  font-size: 3em;
+  margin-left: 0.5em;
+  margin-top: 0.2em;
+  display: inline;
 }
 
 #knappdiv {
@@ -26,7 +34,8 @@ label {
 }
 
 #knappen {
-  background-color: #60baf7;
+  background-color: #50ed4e;
+  background-color: #4dd84b;
   font-size: 3em;
   font-family: 'Dosis', sans-serif;
   display: inline;
@@ -38,7 +47,8 @@ label {
 }
 
 #lagre {
-  background-color: #60baf7;
+  background-color: #50ed4e;
+  background-color: #4dd84b;
   font-size: 3em;
   font-family: 'Dosis', sans-serif;
   display: inline;
@@ -57,7 +67,8 @@ label {
 }
 
 .kategori {
-  background-color: #60baf7;
+  background-color: #50ed4e;
+  background-color: #4dd84b;
   border-radius: 8px;
   border: 3px solid white;
 }
