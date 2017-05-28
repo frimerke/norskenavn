@@ -37,16 +37,23 @@
       <p>Hva slags fornavn?</p>
       <div id="radioplass"></div>
       <input type="checkbox" name="initialer" id="initialer" value="initialer"> Initialer?
+      <p>Tagget med:</p>
+      <select id="tagselect">
+        <option value="ingen">Ingen</option>
+        <option value="1800">1800</option>
+      </select>
       <p>Antall Fornavn</p>
       <input type="range" id="antall_fornavn" name="antall_fornavn" min="1" max="5" value="2">
 
-      <p>Må tilhøre flere enn <input type="number" id="min_antall_fornavn" name="quantity" min="1" max="100000" value="100">
+      <p>Må tilhøre flere enn <input type="number" id="min_antall_fornavn" name="quantity" min="1" max="100000" value="1000">
       men færre enn <input type="number" id="max_antall_fornavn" name="quantity" min="1" max="100000" value="50000"></p>
 
     </div>
 
     <h1 class="kategori">Etternavn ➠</h1>
     <div class="gardinboks">
+      <p>Eget etternavn:</p>
+      <input type="text" id="egetetternavn" name="egetetternavn">
       <p>Antall Etternavn</p>
       <input type="range" id="antall_etternavn" name="antall_etternavn" min="1" max="4" value="1">
       <p>Må tilhøre flere enn <input type="number" id="min_antall_etternavn" name="quantity" min="1" max="100000" value="100">

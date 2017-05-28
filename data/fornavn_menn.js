@@ -3,7 +3,8 @@ var fornavn_menn = [
     "navn": ["Ole"],
     "stavelser": 2,
     "antall": 31372,
-    "topp": 1880
+    "topp": 1880,
+    "tag": ["1800"]
   },
   {
     "navn": ["Tom"],
@@ -177,7 +178,8 @@ var fornavn_menn = [
     "navn": ["Lars"],
     "stavelser": 1,
     "antall": 30012,
-    "topp": 1880
+    "topp": 1880,
+    "tag": ["1800"]
   },
   {
     "navn": ["Vidar"],
@@ -225,7 +227,8 @@ var fornavn_menn = [
     "navn": ["Per"],
     "stavelser": 1,
     "antall": 37839,
-    "topp": 1940
+    "topp": 1940,
+    "tag": ["1800"]
   },
   {
     "navn": ["Roald"],
@@ -285,7 +288,8 @@ var fornavn_menn = [
     "navn": ["Hans"],
     "stavelser": 1,
     "antall": 21681,
-    "topp": 1880
+    "topp": 1880,
+    "tag": ["1800"]
   },
   {
     "navn": ["Jacob", "Jakob"],
@@ -303,7 +307,8 @@ var fornavn_menn = [
     "navn": ["Peder"],
     "stavelser": 2,
     "antall": 3851,
-    "topp": 1880
+    "topp": 1880,
+    "tag": ["1800"]
   },
   {
     "navn": ["Lasse"],
@@ -381,7 +386,8 @@ var fornavn_menn = [
     "navn": ["Anders", "Anners"],
     "stavelser": 2,
     "antall": 19479,
-    "topp": 1880
+    "topp": 1880,
+    "tag": ["1800"]
   },
   {
     "navn": ["Gullik"],
@@ -610,5 +616,12 @@ var fornavn_menn = [
     "stavelser": 3,
     "antall": 10029,
     "topp": 1990
+  },
+  {
+    "navn": ["Nils", "Niels"],
+    "stavelser": 1,
+    "antall": 12000,
+    "topp": 1880,
+    "tag": ["1800"]
   }
 ]

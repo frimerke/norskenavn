@@ -1,6 +1,7 @@
 var namediv;
 var gender;
 var lagreboks;
+var tagselect;
 
 function setup() {
   namediv = select("#navndiv")
@@ -10,6 +11,7 @@ function setup() {
   genbutton.mousePressed(makename);
   lagrebutton = select("#lagre");
   lagrebutton.mousePressed(lagre);
+  tagselect = select("#tagselect");
 
   gender = createRadio();
   gender.parent(select("#radioplass"));
@@ -22,6 +24,7 @@ function setup() {
   antall_fornavn = select("#antall_fornavn");
   antall_etternavn = select("#antall_etternavn");
   initialer = select("#initialer");
+  egetetternavn = select("#egetetternavn")
 
   min_antall_fornavn = select("#min_antall_fornavn");
   max_antall_fornavn = select("#max_antall_fornavn");
@@ -45,6 +48,7 @@ function setup() {
 function lagre() {
   lagreboks.html(lagreboks.html() + "<p>" + namediv.html() + "</p>");
 }
+
 
 function makename() {
   var min_etternavn_stavelser = 0;
@@ -77,8 +81,15 @@ function makename() {
 
   var midlertidig_fornavn = []
   for (na of fornavn) {
-    if (na.stavelser > min_etternavn_stavelser) {
-      if (na.antall < max_antall_fornavn.value() && na.antall > min_antall_fornavn.value()) {
+    if ((na.stavelser > min_etternavn_stavelser) && (na.antall < max_antall_fornavn.value() && na.antall > min_antall_fornavn.value())) {
+      if (tagselect.value() != "ingen") {
+        var foundTags = $.inArray(tagselect.value(), na.tag);
+        console.log(foundTags);
+        if (foundTags > -1) {
+          midlertidig_fornavn.push(na);
+        }
+      }
+      else if (na.antall < max_antall_fornavn.value() && na.antall > min_antall_fornavn.value()) {
       midlertidig_fornavn.push(na);
         }
       }
@@ -103,9 +114,15 @@ function makename() {
       }
     }
   }
+  if (egetetternavn.value() != "") {
+    var i = 1;
+    var nyttetternavn = " " + egetetternavn.value()
+  }
+  else {
+    var i = 0;
+    var nyttetternavn = ""
+  }
 
-  var i = 0;
-  var nyttetternavn = ""
   var etternavnliste = []
   while (i < antall_etternavn.value()) {
     namekey = Math.floor(Math.random() * midlertidig_etternavn.length)
