@@ -1,602 +1,614 @@
 var fornavn_menn = [
   {
-    "navn": "Ole",
+    "navn": ["Ole"],
     "stavelser": 2,
     "antall": 31372,
     "topp": 1880
   },
   {
-    "navn": "Tom",
+    "navn": ["Tom"],
     "stavelser": 1,
     "antall": 15183,
     "topp": 1960
   },
   {
-    "navn": "Stein",
+    "navn": ["Stein"],
     "stavelser": 1,
     "antall": 9837,
     "topp": 1950
   },
   {
-    "navn": "Robert",
+    "navn": ["Robert"],
     "stavelser": 2,
     "antall": 8310,
     "topp": 1970
   },
   {
-    "navn": "Kenneth",
+    "navn": ["Kenneth"],
     "stavelser": 2,
     "antall": 9420,
     "topp": 1970
   },
   {
-    "navn": "Kim",
+    "navn": ["Kim"],
     "stavelser": 1,
     "antall": 8048,
     "topp": 1980
   },
   {
-    "navn": "Tomas",
+    "navn": ["Tomas", "Thomas"],
     "stavelser": 2,
     "antall": 3050,
     "topp": 1980
   },
   {
-    "navn": "Mats",
+    "navn": ["Mats", "Mads"],
     "stavelser": 1,
-    "antall": 6892,
+    "antall": 11000,
     "topp": 1980
   },
   {
-    "navn": "Mads",
-    "stavelser": 1,
-    "antall": 4271,
-    "topp": 1980
-  },
-  {
-    "navn": "Finn",
+    "navn": ["Finn"],
     "stavelser": 1,
     "antall": 6662,
     "topp": 1930
   },
   {
-    "navn": "Jens",
+    "navn": ["Jens"],
     "stavelser": 1,
     "antall": 7900,
     "topp": 1880
   },
   {
-    "navn": "Leif",
+    "navn": ["Leif"],
     "stavelser": 1,
     "antall": 12798,
     "topp": 1920
   },
   {
-    "navn": "Tollef",
+    "navn": ["Tollef"],
     "stavelser": 2,
     "antall": 176,
     "topp": 0
   },
   {
-    "navn": "Einar",
+    "navn": ["Einar"],
     "stavelser": 2,
     "antall": 11212,
     "topp": 1910
   },
   {
-    "navn": "Øystein",
+    "navn": ["Øystein"],
     "stavelser": 2,
     "antall": 10993,
     "topp": 1980
   },
   {
-    "navn": "Arne",
+    "navn": ["Arne"],
     "stavelser": 2,
     "antall": 23488,
     "topp": 1920
   },
   {
-    "navn": "Fredrik",
+    "navn": ["Fredrik"],
     "stavelser": 2,
     "antall": 14192,
     "topp": 1990
   },
   {
-    "navn": "Karl",
+    "navn": ["Karl", "Carl"],
     "stavelser": 1,
     "antall": 8659,
     "topp": 1880
   },
   {
-    "navn": "Jan",
+    "navn": ["Jan"],
     "stavelser": 1,
     "antall": 48516,
     "topp": 1950
   },
   {
-    "navn": "Eirik",
+    "navn": ["Eirik"],
     "stavelser": 2,
     "antall": 13714,
     "topp": 1990
   },
   {
-    "navn": "Joachim",
+    "navn": ["Joachim", "Joakim"],
     "stavelser": 3,
     "antall": 3770,
     "topp": 1990
   },
   {
-    "navn": "Bjørn",
+    "navn": ["Bjørn"],
     "stavelser": 1,
     "antall": 37798,
     "topp": 1940
   },
   {
-    "navn": "Pål",
+    "navn": ["Pål", "Paul"],
     "stavelser": 1,
     "antall": 9179,
     "topp": 1970
   },
   {
-    "navn": "Paul",
-    "stavelser": 1,
-    "antall": 4620,
-    "topp": 1900
-  },
-  {
-    "navn": "Alexander",
+    "navn": ["Alexander", "Aleksander"],
     "stavelser": 4,
     "antall": 11141,
     "topp": 1980
   },
   {
-    "navn": "Andreas",
+    "navn": ["Andreas"],
     "stavelser": 3,
     "antall": 20840,
     "topp": 1990
   },
   {
-    "navn": "Herman",
+    "navn": ["Herman", "Hermann"],
     "stavelser": 2,
     "antall": 4097,
     "topp": 2000
   },
   {
-    "navn": "Ivar",
+    "navn": ["Ivar"],
     "stavelser": 2,
     "antall": 8902,
     "topp": 1920
   },
   {
-    "navn": "Jon",
+    "navn": ["Jon"],
     "stavelser": 1,
     "antall": 15775,
     "topp": 1960
   },
   {
-    "navn": "Jonas",
+    "navn": ["Jonas"],
     "stavelser": 2,
     "antall": 14268,
     "topp": 2000
   },
   {
-    "navn": "Jørgen",
+    "navn": ["Jørgen"],
     "stavelser": 2,
     "antall": 11002,
     "topp": 1990
   },
   {
-    "navn": "Lars",
+    "navn": ["Lars"],
     "stavelser": 1,
     "antall": 30012,
     "topp": 1880
   },
   {
-    "navn": "Vidar",
+    "navn": ["Vidar"],
     "stavelser": 2,
     "antall": 9301,
     "topp": 1960
   },
   {
-    "navn": "Torstein",
+    "navn": ["Torstein"],
     "stavelser": 2,
     "antall": 3991,
     "topp": 1880
   },
   {
-    "navn": "Bård",
+    "navn": ["Bård"],
     "stavelser": 1,
     "antall": 3791,
     "topp": 1960
   },
   {
-    "navn": "Martin",
+    "navn": ["Martin"],
     "stavelser": 2,
     "antall": 21441,
     "topp": 1990
   },
   {
-    "navn": "Kristian",
+    "navn": ["Kristian", "Christian"],
     "stavelser": 3,
     "antall": 16318,
     "topp": 1880
   },
   {
-    "navn": "Erik",
+    "navn": ["Erik"],
     "stavelser": 2,
     "antall": 21002,
     "topp": 1960
   },
   {
-    "navn": "Magnus",
+    "navn": ["Magnus"],
     "stavelser": 2,
     "antall": 16090,
     "topp": 2000
   },
   {
-    "navn": "Per",
+    "navn": ["Per"],
     "stavelser": 1,
     "antall": 37839,
     "topp": 1940
   },
   {
-    "navn": "Roald",
+    "navn": ["Roald"],
     "stavelser": 2,
     "antall": 3081,
     "topp": 1930
   },
   {
-    "navn": "Georg",
+    "navn": ["Georg"],
     "stavelser": 2,
     "antall": 2267,
     "topp": 1890
   },
   {
-    "navn": "Johan",
+    "navn": ["Johan"],
     "stavelser": 2,
     "antall": 9698,
     "topp": 1880
   },
   {
-    "navn": "Olaf",
+    "navn": ["Olaf"],
     "stavelser": 2,
     "antall": 2189,
     "topp": 1880
   },
   {
-    "navn": "Artur",
+    "navn": ["Artur", "Arthur"],
     "stavelser": 2,
     "antall": 1235,
     "topp": 1970
   },
   {
-    "navn": "Johannes",
+    "navn": ["Johannes"],
     "stavelser": 3,
     "antall": 8033,
     "topp": 1890
   },
   {
-    "navn": "Tor",
+    "navn": ["Tor", "Thor"],
     "stavelser": 1,
     "antall": 21584,
     "topp": 1950
   },
   {
-    "navn": "Josef",
+    "navn": ["Josef"],
     "stavelser": 2,
     "antall": 627,
     "topp": 1890
   },
   {
-    "navn": "Olof",
+    "navn": ["Olof"],
     "stavelser": 2,
     "antall": 87,
     "topp": 0
   },
   {
-    "navn": "Hans",
+    "navn": ["Hans"],
     "stavelser": 1,
     "antall": 21681,
     "topp": 1880
   },
   {
-    "navn": "Jacob",
+    "navn": ["Jacob", "Jakob"],
     "stavelser": 2,
     "antall": 3118,
     "topp": 1880
   },
   {
-    "navn": "Søren",
+    "navn": ["Søren"],
     "stavelser": 2,
     "antall": 480,
     "topp": 1880
   },
   {
-    "navn": "Peder",
+    "navn": ["Peder"],
     "stavelser": 2,
     "antall": 3851,
     "topp": 1880
   },
   {
-    "navn": "Lasse",
+    "navn": ["Lasse"],
     "stavelser": 2,
     "antall": 5465,
     "topp": 1990
   },
   {
-    "navn": "Arild",
+    "navn": ["Arild"],
     "stavelser": 2,
     "antall": 10178,
     "topp": 1950
   },
   {
-    "navn": "Odd",
+    "navn": ["Odd"],
     "stavelser": 1,
     "antall": 19817,
     "topp": 1930
   },
   {
-    "navn": "Erling",
+    "navn": ["Erling"],
     "stavelser": 2,
     "antall": 6496,
     "topp": 1910
   },
   {
-    "navn": "Bernhard",
+    "navn": ["Bernhard", "Bernard"],
     "stavelser": 2,
     "antall": 700,
     "topp": 1890
   },
   {
-    "navn": "Simon",
+    "navn": ["Simon"],
     "stavelser": 2,
     "antall": 5271,
     "topp": 1990
   },
   {
-    "navn": "Simion",
+    "navn": ["Simion"],
     "stavelser": 3,
     "antall": 7,
     "topp": 1870
   },
   {
-    "navn": "Henrik",
+    "navn": ["Henrik"],
     "stavelser": 2,
     "antall": 15034,
     "topp": 1990
   },
   {
-    "navn": "Otto",
+    "navn": ["Otto"],
     "stavelser": 2,
     "antall": 1822,
     "topp": 1880
   },
   {
-    "navn": "Øyvind",
+    "navn": ["Øyvind"],
     "stavelser": 2,
     "antall": 14020,
     "topp": 1980
   },
   {
-    "navn": "Gunnar",
+    "navn": ["Gunnar"],
     "stavelser": 2,
     "antall": 13202,
     "topp": 1920
   },
   {
-    "navn": "Rikard",
+    "navn": ["Rikard"],
     "stavelser": 2,
     "antall": 513,
     "topp": 1878
   },
   {
-    "navn": "Anders",
+    "navn": ["Anders", "Anners"],
     "stavelser": 2,
     "antall": 19479,
     "topp": 1880
   },
   {
-    "navn": "Gullik",
+    "navn": ["Gullik"],
     "stavelser": 2,
     "antall": 80,
     "topp": 1800
   },
   {
-    "navn": "Gustav",
+    "navn": ["Gustav"],
     "stavelser": 2,
     "antall": 2034,
     "topp": 1890
   },
   {
-    "navn": "Bjarne",
+    "navn": ["Bjarne"],
     "stavelser": 2,
     "antall": 5220,
     "topp": 1930
   },
   {
-    "navn": "Harald",
+    "navn": ["Harald"],
     "stavelser": 2,
     "antall": 14468,
     "topp": 1940
   },
   {
-    "navn": "Angel",
+    "navn": ["Angel"],
     "stavelser": 2,
     "antall": 159,
     "topp": 1910
   },
   {
-    "navn": "Walter",
+    "navn": ["Walter"],
     "stavelser": 2,
     "antall": 579,
     "topp": 1920
   },
   {
-    "navn": "Terje",
+    "navn": ["Terje"],
     "stavelser": 2,
     "antall": 20996,
     "topp": 1950
   },
   {
-    "navn": "William",
+    "navn": ["William", "Villiam"],
     "stavelser": 3,
     "antall": 7422,
     "topp": 2010
   },
   {
-    "navn": "Lukas",
+    "navn": ["Lukas", "Lucas"],
     "stavelser": 2,
     "antall": 3184,
     "topp": 2010
   },
   {
-    "navn": "Oskar",
+    "navn": ["Oskar", "Oscar"],
     "stavelser": 2,
     "antall": 4361,
     "topp": 1900
   },
   {
-    "navn": "Mathias",
+    "navn": ["Mathias", "Matias"],
     "stavelser": 3,
     "antall": 10974,
     "topp": 2000
   },
   {
-    "navn": "Oliver",
+    "navn": ["Oliver"],
     "stavelser": 3,
     "antall": 6219,
     "topp": 2010
   },
   {
-    "navn": "Emil",
+    "navn": ["Emil"],
     "stavelser": 2,
     "antall": 10365,
     "topp": 2000
   },
   {
-    "navn": "Linus",
+    "navn": ["Linus"],
     "stavelser": 2,
     "antall": 1564,
     "topp": 2000
   },
   {
-    "navn": "Gunnar",
+    "navn": ["Gunnar"],
     "stavelser": 2,
     "antall": 13202,
     "topp": 1920
   },
   {
-    "navn": "Aksel",
+    "navn": ["Aksel"],
     "stavelser": 2,
     "antall": 4397,
     "topp": 2010
   },
   {
-    "navn": "Elias",
+    "navn": ["Elias"],
     "stavelser": 3,
     "antall": 6674,
     "topp": 2000
   },
   {
-    "navn": "Kasper",
+    "navn": ["Kasper", "Casper"],
     "stavelser": 2,
     "antall": 3321,
     "topp": 2000
   },
   {
-    "navn": "Theodor",
+    "navn": ["Theodor", "Teodor"],
     "stavelser": 3,
     "antall": 3143,
     "topp": 2010
   },
   {
-    "navn": "Markus",
+    "navn": ["Markus", "Marcus"],
     "stavelser": 2,
     "antall": 7599,
     "topp": 1990
   },
   {
-    "navn": "Tobias",
+    "navn": ["Tobias"],
     "stavelser": 3,
     "antall": 8629,
     "topp": 2000
   },
   {
-    "navn": "Jesper",
+    "navn": ["Jesper"],
     "stavelser": 2,
     "antall": 2835,
     "topp": 2000
   },
   {
-    "navn": "Jonathan",
+    "navn": ["Jonathan", "Jonatan"],
     "stavelser": 3,
     "antall": 3503,
     "topp": 2010
   },
   {
-    "navn": "Håkon",
+    "navn": ["Håkon", "Haakon"],
     "stavelser": 2,
     "antall": 12793,
     "topp": 1910
   },
   {
-    "navn": "Isak",
+    "navn": ["Isak", "Isaac"],
     "stavelser": 2,
     "antall": 4844,
     "topp": 2010
   },
   {
-    "navn": "Benjamin",
+    "navn": ["Benjamin"],
     "stavelser": 3,
     "antall": 7253,
     "topp": 2000
   },
   {
-    "navn": "Sebastian",
+    "navn": ["Sebastian"],
     "stavelser": 4,
     "antall": 8890,
     "topp": 2000
   },
   {
-    "navn": "Olav",
+    "navn": ["Olav"],
     "stavelser": 2,
     "antall": 14993,
     "topp": 1910
   },
   {
-    "navn": "Ludvig",
+    "navn": ["Ludvig", "Ludvik"],
     "stavelser": 2,
     "antall": 2002,
     "topp": 1880
   },
   {
-    "navn": "Adrian",
+    "navn": ["Adrian"],
     "stavelser": 3,
     "antall": 9203,
     "topp": 2000
   },
   {
-    "navn": "Sander",
+    "navn": ["Sander"],
     "stavelser": 2,
     "antall": 8644,
     "topp": 1990
   },
   {
-    "navn": "Nikolai",
+    "navn": ["Nikolai", "Nicolai"],
     "stavelser": 3,
     "antall": 3876,
     "topp": 2000
   },
   {
-    "navn": "Victor",
+    "navn": ["Victor", "Viktor"],
     "stavelser": 2,
     "antall": 2493,
     "topp": 2010
   },
   {
-    "navn": "Mikkel",
+    "navn": ["Mikkel"],
     "stavelser": 2,
     "antall": 3332,
     "topp": 2010
+  },
+  {
+    "navn": ["Svein"],
+    "stavelser": 1,
+    "antall": 24763,
+    "topp": 1940
+  },
+  {
+    "navn": ["Knut"],
+    "stavelser": 1,
+    "antall": 24802,
+    "topp": 1950
+  },
+  {
+    "navn": ["Sigurd"],
+    "stavelser": 2,
+    "antall": 7124,
+    "topp": 1890
+  },
+  {
+    "navn": ["Kristoffer", "Christopher"],
+    "stavelser": 3,
+    "antall": 10029,
+    "topp": 1990
   }
 ]

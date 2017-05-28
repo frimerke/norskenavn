@@ -1,11 +1,15 @@
 var namediv;
 var gender;
+var lagreboks;
 
 function setup() {
   namediv = select("#navndiv")
+  lagreboks = select("#lagreboks")
 
   genbutton = select("#knappen");
   genbutton.mousePressed(makename);
+  lagrebutton = select("#lagre");
+  lagrebutton.mousePressed(lagre);
 
   gender = createRadio();
   gender.parent(select("#radioplass"));
@@ -27,15 +31,20 @@ function setup() {
   $( function() {
   $( "#gardin" ).accordion({
     collapsible: true,
-    active: false
+    active: false,
+    heightStyle: "content"
   });
   } );
 
   makename();
-  console.log(fornavn_menn.length + " mannsnavn, " + fornavn_kvinner.length +
-  " kvinnenavn, " + fornavn_felles.length + " nøytrale navn, " + etternavn.length + " etternavn.");
+  listestatus = select("#listestatus");
+  listestatus.html(fornavn_menn.length + " maskuline navn, " + fornavn_kvinner.length +
+  " feminine navn, " + fornavn_felles.length + " nøytrale navn, " + etternavn.length + " etternavn.")
 }
 
+function lagre() {
+  lagreboks.html(lagreboks.html() + "<p>" + namediv.html() + "</p>");
+}
 
 function makename() {
   var min_etternavn_stavelser = 0;
@@ -84,12 +93,12 @@ function makename() {
       fornavnliste.push(midlertidig_fornavn[namekey].navn);
       if (((antall_fornavn.value() - i) == 1) && (initialer.checked() == true))
       {
-        var initial = midlertidig_fornavn[namekey].navn.substring(0, 1) + ".";
+        var initial = midlertidig_fornavn[namekey].navn[Math.floor(Math.random() * midlertidig_fornavn[namekey].navn.length)].substring(0, 1) + ".";
         nyttfornavn = nyttfornavn + " " + initial;
         i++;
       }
       else {
-      nyttfornavn = nyttfornavn + " " + midlertidig_fornavn[namekey].navn;
+      nyttfornavn = nyttfornavn + " " + midlertidig_fornavn[namekey].navn[Math.floor(Math.random() * midlertidig_fornavn[namekey].navn.length)];
       i++;
       }
     }
