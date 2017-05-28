@@ -40,7 +40,8 @@ label {
   font-family: 'Dosis', sans-serif;
   display: inline;
   margin: auto;
-  width: 20%;
+  width: 8em;
+  height: 10%;
   padding: 10px 24px;
   border-radius: 12px;
   border: 3px solid white;
@@ -53,7 +54,7 @@ label {
   font-family: 'Dosis', sans-serif;
   display: inline;
   margin: auto;
-  width: 5%;
+  width: 1.8em;
   padding: 10px 24px;
   border-radius: 12px;
   border: 3px solid white;
@@ -71,12 +72,14 @@ label {
   background-color: #4dd84b;
   border-radius: 8px;
   border: 3px solid white;
+  padding-top: 0.3em;
+  height: 1.7em;
 }
 
 .gardinboks {
   border: 5px solid;
   border-radius: 8px;
-  border-color: #60baf7;
+  border-color: #4dd84b;
   padding-top: 10px;
   padding-bottom: 10px;
 }
