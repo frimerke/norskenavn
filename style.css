@@ -35,7 +35,7 @@ label {
 
 #knappen {
   background-color: #50ed4e;
-  background-color: #4dd84b;
+  background-color: #50ce4e;
   font-size: 3em;
   font-family: 'Dosis', sans-serif;
   display: inline;
@@ -49,7 +49,7 @@ label {
 
 #lagre {
   background-color: #50ed4e;
-  background-color: #4dd84b;
+  background-color: #50ce4e;
   font-size: 3em;
   font-family: 'Dosis', sans-serif;
   display: inline;
@@ -69,7 +69,7 @@ label {
 
 .kategori {
   background-color: #50ed4e;
-  background-color: #4dd84b;
+  background-color: #50ce4e;
   border-radius: 8px;
   border: 3px solid white;
   padding-top: 0.3em;
