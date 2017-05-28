@@ -22,7 +22,9 @@ function setup() {
   gender.value("begge");
 
   antall_fornavn = select("#antall_fornavn");
+  antall_fornavn.changed(oppdater_label)
   antall_etternavn = select("#antall_etternavn");
+  antall_etternavn.changed(oppdater_label)
   initialer = select("#initialer");
   egetetternavn = select("#egetetternavn")
 
@@ -30,6 +32,9 @@ function setup() {
   max_antall_fornavn = select("#max_antall_fornavn");
   min_antall_etternavn = select("#min_antall_etternavn");
   max_antall_etternavn = select("#max_antall_etternavn");
+
+  antall_fornavn_label = select("#antall_fornavn_label");
+  antall_etternavn_label = select("#antall_etternavn_label");
 
   $( function() {
   $( "#gardin" ).accordion({
@@ -40,6 +45,7 @@ function setup() {
   } );
 
   makename();
+  oppdater_label();
   listestatus = select("#listestatus");
   listestatus.html(fornavn_menn.length + " maskuline navn, " + fornavn_kvinner.length +
   " feminine navn, " + fornavn_felles.length + " nøytrale navn, " + etternavn.length + " etternavn.")
@@ -49,6 +55,10 @@ function lagre() {
   lagreboks.html(lagreboks.html() + "<p>" + namediv.html() + "</p>");
 }
 
+function oppdater_label() {
+  antall_fornavn_label.html(antall_fornavn.value());
+  antall_etternavn_label.html(antall_etternavn.value());
+}
 
 function makename() {
   var min_etternavn_stavelser = 0;

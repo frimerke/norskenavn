@@ -9,7 +9,7 @@
   <script language="javascript" type="text/javascript" src="sketch.js"></script>
   <!-- this line removes any default padding and style. you might only need one of these values set. -->
   <style> body {padding: 0; margin: 0;} </style>
-  <link href="https://fonts.googleapis.com/css?family=Dosis|Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Merriweather|Concert+One" rel="stylesheet">
   <script language="javascript" type="text/javascript" src="data/etternavn.js"></script>
   <script language="javascript" type="text/javascript" src="data/fornavn_menn.js"></script>
   <script language="javascript" type="text/javascript" src="data/fornavn_kvinner.js"></script>
@@ -43,7 +43,7 @@
         <option value="1800">1800</option>
       </select>
       <p>Antall Fornavn</p>
-      <input type="range" id="antall_fornavn" name="antall_fornavn" min="1" max="5" value="2">
+      <input type="range" id="antall_fornavn" name="antall_fornavn" min="1" max="5" value="2"> <span id="antall_fornavn_label"></span>
 
       <p>Må tilhøre flere enn <input type="number" id="min_antall_fornavn" name="quantity" min="1" max="100000" value="1000">
       men færre enn <input type="number" id="max_antall_fornavn" name="quantity" min="1" max="100000" value="50000"></p>
@@ -55,7 +55,7 @@
       <p>Eget etternavn:</p>
       <input type="text" id="egetetternavn" name="egetetternavn">
       <p>Antall Etternavn</p>
-      <input type="range" id="antall_etternavn" name="antall_etternavn" min="1" max="4" value="1">
+      <input type="range" id="antall_etternavn" name="antall_etternavn" min="1" max="4" value="1"> <span id="antall_etternavn_label"></span>
       <p>Må tilhøre flere enn <input type="number" id="min_antall_etternavn" name="quantity" min="1" max="100000" value="100">
       men færre enn <input type="number" id="max_antall_etternavn" name="quantity" min="1" max="100000" value="50000"></p>
     </div>
