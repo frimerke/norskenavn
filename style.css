@@ -34,7 +34,6 @@ label {
 }
 
 #knappen {
-  background-color: #50ed4e;
   background-color: #50ce4e;
   font-size: 3em;
   font-family: 'Dosis', sans-serif;
@@ -42,13 +41,12 @@ label {
   margin: auto;
   width: 8em;
   height: 2em;
-  padding: 10px 24px;
+  /*padding: 10px 24px;*/
   border-radius: 12px;
   border: 3px solid white;
 }
 
 #lagre {
-  background-color: #50ed4e;
   background-color: #50ce4e;
   font-size: 3em;
   font-family: 'Dosis', sans-serif;
@@ -56,7 +54,7 @@ label {
   margin: auto;
   width: 1.8em;
   height: 2em;
-  padding: 10px 24px;
+  /*padding: 10px 24px;*/
   border-radius: 12px;
   border: 3px solid white;
 }

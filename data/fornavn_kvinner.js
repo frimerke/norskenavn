@@ -80,7 +80,7 @@ var fornavn_kvinner = [
     "topp": 1960
   },
   {
-    "navn": ["Ester"],
+    "navn": ["Ester", "Esther"],
     "stavelser": 2,
     "antall": 1786,
     "topp": 1910
@@ -383,7 +383,7 @@ var fornavn_kvinner = [
     "tag": ["dronning"]
   },
   {
-    "navn": ["Christine"],
+    "navn": ["Christine", "Kristine"],
     "stavelser": 3,
     "antall": 5722,
     "topp": 1990,

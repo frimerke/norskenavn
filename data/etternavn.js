@@ -72,16 +72,10 @@ var etternavn = [
     "antall": 18
   },
   {
-    "navn": ["Dahl"],
+    "navn": ["Dahl", "Dal"],
     "klasse": "geografisk",
     "stavelser": 1,
     "antall": 11451
-  },
-  {
-    "navn": ["Dal"],
-    "klasse": "geografisk",
-    "stavelser": 1,
-    "antall": 125
   },
   {
     "navn": ["Dalen"],

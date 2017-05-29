@@ -5,8 +5,9 @@ var tagselect;
 var navnobjekt =[];
 
 function setup() {
-  namediv = select("#navndiv")
-  lagreboks = select("#lagreboks")
+  namediv = select("#navndiv");
+  lagreboks = select("#lagreboks");
+  lagreboks.html(localStorage.getItem("lagredenavn"));
 
   genbutton = select("#knappen");
   genbutton.mousePressed(makename);
@@ -45,9 +46,6 @@ function setup() {
   });
   } );
 
-  $('#navndiv').textfill({
-  });
-
   makename();
   oppdater_label();
   listestatus = select("#listestatus");
@@ -57,6 +55,9 @@ function setup() {
 
 function lagre() {
   lagreboks.html(lagreboks.html() + "<p>" + namediv.html() + "</p>");
+  localStorage.setItem("lagredenavn", lagreboks.html());
+
+
 }
 
 function oppdater_label() {
@@ -162,7 +163,7 @@ function makename() {
     if (etternavnliste.indexOf(midlertidig_etternavn[namekey].navn) == -1 ){
       etternavnliste.push(midlertidig_etternavn[namekey].navn);
       navnobjekt.push(midlertidig_etternavn[namekey]);
-      nyttetternavn = nyttetternavn + "<span class='ordobjekt' id='" + i + "'>" + midlertidig_etternavn[namekey].navn + "</span> ";
+      nyttetternavn = nyttetternavn + "<span class='ordobjekt' id='" + i + "'>" + midlertidig_etternavn[namekey].navn[0] + "</span> ";
       i++;
       e++;
     }
