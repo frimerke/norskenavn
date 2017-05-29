@@ -12,7 +12,10 @@ function setup() {
 
   lagreboks = select("#lagreboks");
   lagreboks.html("")
-  lagreboks.html(lagreboks.html() + localStorage.getItem("lagredenavn"));
+  if (localStorage.getItem("lagredenavn") != null){
+    lagreboks.html(lagreboks.html() + localStorage.getItem("lagredenavn"));
+  }
+
 
   slettaltknapp.mousePressed(deleteAll);
 
@@ -62,10 +65,6 @@ function setup() {
 
 function lagre() {
   lagreboks.html(lagreboks.html() + "<p>" + namediv.html() + " <i class='fa fa-times deletethis' aria-hidden='true'></i></p>");
-  sletteknapper = selectAll(".deletethis");
-  for (i = 0; i < sletteknapper.length; i++) {
-    sletteknapper[i].mousePressed(deleteParent);
-  }
   localStorage.setItem("lagredenavn", lagreboks.html());
 
 
@@ -85,8 +84,6 @@ function endreNavn() {
   else {
     this.index = this.index + 1;
   }
-  console.log(this.object.navn[this.index], this.index);
-  console.log(this.object.navn);
   this.html(this.object.navn[this.index]);
 
 }
@@ -99,7 +96,6 @@ function deleteParent() {
 
 function deleteAll() {
   lagreboks.html("");
-  console.log("slett!");
   localStorage.setItem("lagredenavn", lagreboks.html());
 
 }
@@ -107,6 +103,10 @@ function deleteAll() {
 function makename() {
   var min_etternavn_stavelser = 0;
   navnobjekt = [];
+  sletteknapper = selectAll(".deletethis");
+  for (i = 0; i < sletteknapper.length; i++) {
+    sletteknapper[i].mousePressed(deleteParent);
+  }
 
   var genderlist = [fornavn_menn, fornavn_kvinner, fornavn_felles]
 
@@ -139,7 +139,6 @@ function makename() {
     if ((na.stavelser > min_etternavn_stavelser) && (na.antall < max_antall_fornavn.value() && na.antall > min_antall_fornavn.value())) {
       if (tagselect.value() != "ingen") {
         var foundTags = $.inArray(tagselect.value(), na.tag);
-        console.log(foundTags);
         if (foundTags > -1) {
           midlertidig_fornavn.push(na);
         }

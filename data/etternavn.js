@@ -12,7 +12,7 @@ var etternavn = [
     "antall": 52569
   },
   {
-    "navn": ["Larsen"],
+    "navn": ["Larsen", "Larssen"],
     "klasse": "paternalt",
     "stavelser": 2,
     "antall": 37564
@@ -36,13 +36,13 @@ var etternavn = [
     "antall": 293
   },
   {
-    "navn": ["Karlsen"],
+    "navn": ["Karlsen", "Carlsen"],
     "klasse": "paternalt",
     "stavelser": 2,
     "antall": 21063
   },
   {
-    "navn": ["Vaaler"],
+    "navn": ["Vaaler", "Våler"],
     "klasse": "geografisk",
     "stavelser": 2,
     "antall": 79
@@ -60,10 +60,10 @@ var etternavn = [
     "antall": 212
   },
   {
-    "navn": ["Ødegaard"],
+    "navn": ["Ødegaard", "Ødegård"],
     "klasse": "geografisk",
     "stavelser": 3,
-    "antall": 2400
+    "antall": 6400
   },
   {
     "navn": ["Agnli"],
@@ -84,19 +84,13 @@ var etternavn = [
     "antall": 2478
   },
   {
-    "navn": ["Aas"],
+    "navn": ["Aas", "Ås"],
     "klasse": "geografisk",
     "stavelser": 1,
     "antall": 5856
   },
   {
-    "navn": ["Ås"],
-    "klasse": "geografisk",
-    "stavelser": 1,
-    "antall": 243
-  },
-  {
-    "navn": ["Aasen"],
+    "navn": ["Aasen", "Åsen"],
     "klasse": "geografisk",
     "stavelser": 2,
     "antall": 4447
@@ -108,16 +102,10 @@ var etternavn = [
     "antall": 104
   },
   {
-    "navn": ["Huse"],
+    "navn": ["Huse", "Huuse"],
     "klasse": "geografisk",
     "stavelser": 1,
     "antall": 1059
-  },
-  {
-    "navn": ["Huuse"],
-    "klasse": "geografisk",
-    "stavelser": 1,
-    "antall": 195
   },
   {
     "navn": ["Stranddal"],
@@ -1038,7 +1026,7 @@ var etternavn = [
     "antall": 1227
   },
   {
-    "navn": ["Bråthen"],
+    "navn": ["Bråthen", "Bråten"],
     "klasse": "geografisk",
     "stavelser": 2,
     "antall": 3374
