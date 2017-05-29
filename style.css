@@ -88,3 +88,8 @@ label {
 #listestatus {
   color: grey;
 }
+
+.ordobjekt:hover {
+  background-color: #50ce4e;
+  border-radius: 12px;
+}

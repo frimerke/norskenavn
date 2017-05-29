@@ -2,6 +2,7 @@ var namediv;
 var gender;
 var lagreboks;
 var tagselect;
+var navnobjekt =[];
 
 function setup() {
   namediv = select("#navndiv")
@@ -63,8 +64,24 @@ function oppdater_label() {
   antall_etternavn_label.html(antall_etternavn.value());
 }
 
+function endreNavn() {
+  this.object = navnobjekt[this.id()];
+  this.index = this.object.navn.indexOf(this.html());
+  if ((this.index + 1) == this.object.navn.length) {
+    this.index = 0;
+  }
+  else {
+    this.index = this.index + 1;
+  }
+  console.log(this.object.navn[this.index], this.index);
+  console.log(this.object.navn);
+  this.html(this.object.navn[this.index]);
+
+}
+
 function makename() {
   var min_etternavn_stavelser = 0;
+  navnobjekt = [];
 
   var genderlist = [fornavn_menn, fornavn_kvinner, fornavn_felles]
 
@@ -115,6 +132,7 @@ function makename() {
     namekey = Math.floor(Math.random() * midlertidig_fornavn.length)
     if (fornavnliste.indexOf(midlertidig_fornavn[namekey].navn) == -1 ){
       fornavnliste.push(midlertidig_fornavn[namekey].navn);
+      navnobjekt.push(midlertidig_fornavn[namekey]);
       if (((antall_fornavn.value() - i) == 1) && (initialer.checked() == true))
       {
         var initial = midlertidig_fornavn[namekey].navn[Math.floor(Math.random() * midlertidig_fornavn[namekey].navn.length)].substring(0, 1) + ".";
@@ -122,30 +140,40 @@ function makename() {
         i++;
       }
       else {
-      nyttfornavn = nyttfornavn + " " + midlertidig_fornavn[namekey].navn[Math.floor(Math.random() * midlertidig_fornavn[namekey].navn.length)];
+      nyttfornavn = nyttfornavn + "<span class='ordobjekt' id='" + i + "'>" +
+      midlertidig_fornavn[namekey].navn[Math.floor(Math.random() * midlertidig_fornavn[namekey].navn.length)] +
+      "</span> ";
       i++;
       }
     }
   }
   if (egetetternavn.value() != "") {
-    var i = 1;
+    var e = 1;
     var nyttetternavn = " " + egetetternavn.value()
   }
   else {
-    var i = 0;
+    var e = 0;
     var nyttetternavn = ""
   }
 
   var etternavnliste = []
-  while (i < antall_etternavn.value()) {
+  while (e < antall_etternavn.value()) {
     namekey = Math.floor(Math.random() * midlertidig_etternavn.length)
     if (etternavnliste.indexOf(midlertidig_etternavn[namekey].navn) == -1 ){
       etternavnliste.push(midlertidig_etternavn[namekey].navn);
-      nyttetternavn = nyttetternavn + " " + midlertidig_etternavn[namekey].navn;
+      navnobjekt.push(midlertidig_etternavn[namekey]);
+      nyttetternavn = nyttetternavn + "<span class='ordobjekt' id='" + i + "'>" + midlertidig_etternavn[namekey].navn + "</span> ";
       i++;
+      e++;
     }
   }
 
   namediv.html("<span>" + nyttfornavn + nyttetternavn + "</span>");
+  var ord = selectAll(".ordobjekt");
+  for (var i = 0; i < ord.length; i++){
+    ord[i].mousePressed(endreNavn);
+  }
+
+
   return nyttfornavn + nyttetternavn;
 }
