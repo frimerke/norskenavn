@@ -91,3 +91,11 @@ label {
   background-color: #50ce4e;
   border-radius: 12px;
 }
+
+.deletethis {
+  color: grey;
+}
+
+.deleteall {
+  color: red;
+}

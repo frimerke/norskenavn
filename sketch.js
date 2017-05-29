@@ -6,8 +6,15 @@ var navnobjekt =[];
 
 function setup() {
   namediv = select("#navndiv");
+  lagrecontainer = select("#lagrecontainer");
+  slettaltknapp = select(".deleteall")
+  slettaltknapp.parent(lagrecontainer);
+
   lagreboks = select("#lagreboks");
-  lagreboks.html(localStorage.getItem("lagredenavn"));
+  lagreboks.html("")
+  lagreboks.html(lagreboks.html() + localStorage.getItem("lagredenavn"));
+
+  slettaltknapp.mousePressed(deleteAll);
 
   genbutton = select("#knappen");
   genbutton.mousePressed(makename);
@@ -54,7 +61,11 @@ function setup() {
 }
 
 function lagre() {
-  lagreboks.html(lagreboks.html() + "<p>" + namediv.html() + "</p>");
+  lagreboks.html(lagreboks.html() + "<p>" + namediv.html() + " <i class='fa fa-times deletethis' aria-hidden='true'></i></p>");
+  sletteknapper = selectAll(".deletethis");
+  for (i = 0; i < sletteknapper.length; i++) {
+    sletteknapper[i].mousePressed(deleteParent);
+  }
   localStorage.setItem("lagredenavn", lagreboks.html());
 
 
@@ -77,6 +88,19 @@ function endreNavn() {
   console.log(this.object.navn[this.index], this.index);
   console.log(this.object.navn);
   this.html(this.object.navn[this.index]);
+
+}
+
+function deleteParent() {
+  this.parent().remove()
+  localStorage.setItem("lagredenavn", lagreboks.html());
+
+}
+
+function deleteAll() {
+  lagreboks.html("");
+  console.log("slett!");
+  localStorage.setItem("lagredenavn", lagreboks.html());
 
 }
 
