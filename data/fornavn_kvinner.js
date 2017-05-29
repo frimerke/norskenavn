@@ -222,7 +222,7 @@ var fornavn_kvinner = [
     "tag": ["dronning"]
   },
   {
-    "navn": ["Gunhild"],
+    "navn": ["Gunhild", "Gunnhild"],
     "stavelser": 2,
     "antall": 3420,
     "topp": 1880,
@@ -1214,6 +1214,76 @@ var fornavn_kvinner = [
   },
   {
     "navn": ["Britt"],
+    "stavelser": 1,
+    "antall": 7500,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Brynhild"],
+    "stavelser": 2,
+    "antall": 635,
+    "topp": 451,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Cathrine", "Kathrine", "Katrine"],
+    "stavelser": 3,
+    "antall": 4500,
+    "topp": 1990,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Cecilie"],
+    "stavelser": 4,
+    "antall": 8300,
+    "topp": 1970,
+    "tag": ["Cecilie"]
+  },
+  {
+    "navn": ["Christina", "Kristina"],
+    "stavelser": 3,
+    "antall": 4400,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Dagmar"],
+    "stavelser": 2,
+    "antall": 621,
+    "topp": 1900,
+    "tag": []
+  },
+  {
+    "navn": ["Dagny"],
+    "stavelser": 2,
+    "antall": 1598,
+    "topp": 1900,
+    "tag": []
+  },
+  {
+    "navn": ["Ebba"],
+    "stavelser": 2,
+    "antall": 598,
+    "topp": 1900,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Edel"],
+    "stavelser": 2,
+    "antall": 2232,
+    "topp": 1910,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Edith"],
+    "stavelser": 2,
+    "antall": 2283,
+    "topp": 1920,
+    "tag": []
+  },
+  {
+    "navn": [""],
     "stavelser": 1,
     "antall": 7500,
     "topp": 1940,
