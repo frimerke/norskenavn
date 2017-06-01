@@ -2,6 +2,10 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 
+iframe {
+  margin-left: 15em;
+}
+
 #navndiv {
   font-size: 7em;
   color: black;
