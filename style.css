@@ -46,6 +46,10 @@ label {
   border: 3px solid white;
 }
 
+#knappen:hover {
+  background-color: grey;
+}
+
 #lagre {
   background-color: #50ce4e;
   font-size: 3em;
@@ -57,6 +61,10 @@ label {
   /*padding: 10px 24px;*/
   border-radius: 12px;
   border: 3px solid white;
+}
+
+#lagre:hover {
+  background-color: grey;
 }
 
 #kontrolldiv {

@@ -259,7 +259,9 @@ function lagetternavn(teller, antall) {
 
   if (egetetternavn.value() != "") {
     var e = 1;
-    var nyttetternavn = " <span class='ordobjekt etternavn' id='1'>" + egetetternavn.value() + "</span> ";
+    var nyttetternavn = " <span class='ordobjekt etternavn' id='" + i + "'>" + egetetternavn.value() + "</span> ";
+    plaintext += egetetternavn.value();
+    i++;
   }
   else {
     var e = 0;
