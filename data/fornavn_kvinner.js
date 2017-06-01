@@ -550,7 +550,8 @@ var fornavn_kvinner = [
     "navn": ["Nora", "Norah", "Noora"],
     "stavelser": 2,
     "antall": 10000,
-    "topp": 2000
+    "topp": 2000,
+    "betydning": "Lys"
   },
   {
     "navn": ["Sara", "Sarah"],
