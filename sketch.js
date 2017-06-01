@@ -1,16 +1,17 @@
 var namediv;
-var gender;
 var lagreboks;
 var tagselect;
-var navnobjekt = [];
 var allenavn = [];
 var min_etternavn_stavelser = 0;
 
 function setup() {
+  navnobjekt = [];
   namediv = select("#navndiv");
   lagrecontainer = select("#lagrecontainer");
   slettaltknapp = select(".deleteall")
   slettaltknapp.parent(lagrecontainer);
+
+
 
   lagreboks = select("#lagreboks");
   lagreboks.html("")
@@ -58,6 +59,9 @@ function setup() {
   });
   } );
 
+  genderlist = [fornavn_menn, fornavn_kvinner, fornavn_felles]
+  fornavn = settgender();
+
   makename();
   oppdater_label();
   listestatus = select("#listestatus");
@@ -68,8 +72,6 @@ function setup() {
 function lagre() {
   lagreboks.html(lagreboks.html() + "<p>" + namediv.elt.innerText + " <i class='fa fa-times deletethis' aria-hidden='true'></i></p>");
   localStorage.setItem("lagredenavn", lagreboks.html());
-
-
 }
 
 function oppdater_label() {
@@ -80,18 +82,16 @@ function oppdater_label() {
 function veksleNavn() {
   this.object = navnobjekt[this.id()];
   this.parent = select("#" + this.id(), ".ordobjekt");
-  this.index = this.object.navn.indexOf(this.parent.elt.innerText);
-  if ((this.index + 1) == this.object.navn.length) {
+  this.index = this.object[0].navn.indexOf(this.parent.elt.innerText);
+  if ((this.index + 1) == this.object[0].navn.length) {
     this.index = 0;
   }
   else {
     this.index = this.index + 1;
   }
   tex = this.parent.elt.childNodes[0];
-  tex.nodeValue = this.object.navn[this.index];
+  tex.nodeValue = this.object[0].navn[this.index];
 }
-
-
 
 function deleteParent() {
   this.parent().remove()
@@ -105,19 +105,7 @@ function deleteAll() {
 
 }
 
-
-
-
-function makename() {
-
-  navnobjekt = [];
-  sletteknapper = selectAll(".deletethis");
-  for (i = 0; i < sletteknapper.length; i++) {
-    sletteknapper[i].mousePressed(deleteParent);
-  }
-
-  var genderlist = [fornavn_menn, fornavn_kvinner, fornavn_felles]
-
+function settgender() {
   if (gender.value() == "maskuline") {
     fornavn = genderlist[0];
   }
@@ -128,11 +116,87 @@ function makename() {
     fornavn = genderlist[2];
   }
   else {
-    var fornavn = genderlist[Math.floor(Math.random() * 2)]
+    fornavn = genderlist[Math.floor(Math.random() * 2)]
   }
 
   fornavn = fornavn.concat(genderlist[2]);
+  return fornavn;
+}
 
+
+function makename() {
+
+  navnobjekt = [];
+  sletteknapper = selectAll(".deletethis");
+  for (i = 0; i < sletteknapper.length; i++) {
+    sletteknapper[i].mousePressed(deleteParent);
+  }
+
+  fornavn = settgender();
+
+
+
+  var i = 0;
+  fornavnet = lagfornavn(i, antall_fornavn.value(), fornavn);
+  etternavnet = lagetternavn(fornavnet[3], antall_etternavn.value());
+
+  namediv.html("<span>" + fornavnet[0] + etternavnet[0] + "</span>");
+  rendersubbuttons(navnobjekt_fra_skjerm());
+
+  return fornavnet[0] + etternavnet[0];
+}
+
+function navnobjekt_fra_skjerm() {
+  ord = selectAll(".ordobjekt");
+  skjermnavn = [];
+
+  for (z = 0; z < ord.length; z++) {
+    skatt = ord[z].elt.childNodes[0].nodeValue
+    skatt = skatt.replace(" ", "");
+    for (var i = 0; i < fornavn.length; i++) {
+      if ((fornavn[i].navn.indexOf(skatt)) != -1) {
+        skjermnavn.push(fornavn[i]);
+      }
+    }
+    for (var e = 0; e < etternavn.length; e++) {
+      if ((etternavn[e].navn.indexOf(skatt)) != -1) {
+        skjermnavn.push(etternavn[e]);
+      }
+    }
+    }
+  return skjermnavn;
+}
+
+function rendersubbuttons(ordobjekter) {
+  ord = selectAll(".ordobjekt");
+  dest = selectAll(".subbutton")
+  for (var i = 0; i < dest.length; i++) {
+    dest[i].remove();
+  }
+  for (var i = 0; i < ord.length; i++){
+    if (ordobjekter[i].navn.length > 1) {
+      cyclebutton = createDiv("<i class='fa fa-refresh' aria-hidden='true'></i>");
+      cyclebutton.class("cyclebutton subbutton");
+      cyclebutton.id(i)
+      cyclebutton.parent(ord[i]);
+      cyclebutton.mousePressed(veksleNavn);
+    }
+    nyttnavnbutton = createDiv("<i class='fa fa-plus-circle' aria-hidden='true'></i>");
+    nyttnavnbutton.class("nyttnavnbutton subbutton");
+    nyttnavnbutton.id(i);
+    nyttnavnbutton.parent(ord[i]);
+    nyttnavnbutton.mousePressed(nyttnavn);
+    if (ordobjekter[i].betydning != null) {
+      infobutton = createDiv("<i class='fa fa-info-circle' aria-hidden='true'></i>");
+      infobutton.class("infobutton subbutton");
+      infobutton.id(i);
+      infobutton.parent(ord[i]);
+    }
+  }
+}
+
+function lagfornavn(teller, antall, mf) {
+  i = teller;
   var midlertidig_fornavn = []
   for (na of fornavn) {
     if ((na.stavelser > min_etternavn_stavelser) && (na.antall < max_antall_fornavn.value() && na.antall > min_antall_fornavn.value())) {
@@ -148,15 +212,17 @@ function makename() {
       }
   }
 
-  var i = 0;
   var nyttfornavn = ""
   var fornavnliste = []
-  while (i < antall_fornavn.value()) {
+  var plaintext = "";
+  var lokalenavn = []
+  while (i < antall) {
     namekey = Math.floor(Math.random() * midlertidig_fornavn.length)
     if (fornavnliste.indexOf(midlertidig_fornavn[namekey].navn) == -1 ){
       fornavnliste.push(midlertidig_fornavn[namekey].navn);
       navnobjekt.push(midlertidig_fornavn[namekey]);
-      if (((antall_fornavn.value() - i) == 1) && (initialer.checked() == true))
+      lokalenavn.push(midlertidig_fornavn[namekey]);
+      if (((antall - i) == 1) && (initialer.checked() == true))
       {
         var initial = midlertidig_fornavn[namekey].navn[Math.floor(Math.random() * midlertidig_fornavn[namekey].navn.length)].substring(0, 1) + ".";
         nyttfornavn = nyttfornavn + " " + initial;
@@ -166,37 +232,12 @@ function makename() {
       nyttfornavn = nyttfornavn + "<span class='ordobjekt fornavn' id='" + i + "'>" +
       midlertidig_fornavn[namekey].navn[Math.floor(Math.random() * midlertidig_fornavn[namekey].navn.length)] +
       "</span> ";
+      plaintext += " " + midlertidig_fornavn[namekey].navn[Math.floor(Math.random() * midlertidig_fornavn[namekey].navn.length)]
       i++;
       }
     }
   }
-
-  etternavnet = lagetternavn(i, antall_etternavn.value());
-  namediv.html("<span>" + nyttfornavn + etternavnet[0] + "</span>");
-
-  var ord = selectAll(".ordobjekt");
-  for (var i = 0; i < ord.length; i++){
-    if (navnobjekt[i].navn.length > 1) {
-      cyclebutton = createDiv("<i class='fa fa-refresh' aria-hidden='true'></i>");
-      cyclebutton.class("cyclebutton subbutton");
-      cyclebutton.id(i)
-      cyclebutton.parent(ord[i]);
-      cyclebutton.mousePressed(veksleNavn);
-    }
-    nyttnavnbutton = createDiv("<i class='fa fa-plus-circle' aria-hidden='true'></i>");
-    nyttnavnbutton.class("nyttnavnbutton subbutton");
-    nyttnavnbutton.id(i);
-    nyttnavnbutton.parent(ord[i]);
-    nyttnavnbutton.mousePressed(nyttnavn);
-    if (navnobjekt[i].betydning != null) {
-      infobutton = createDiv("<i class='fa fa-info-circle' aria-hidden='true'></i>");
-      infobutton.class("infobutton subbutton");
-      infobutton.id(i);
-      infobutton.parent(ord[i]);
-    }
-  }
-
-  return nyttfornavn + etternavnet[0];
+  return [nyttfornavn, plaintext, lokalenavn, i]
 }
 
 function lagetternavn(teller, antall) {
@@ -241,4 +282,12 @@ function nyttnavn() {
     tex = this.parent.elt.childNodes[0];
     tex.nodeValue = lagetternavn(this.id(), 1)[1];
   }
+  else {
+    navnet = lagfornavn(0, 1);
+    tex = this.parent.elt.childNodes[0];
+    tex.nodeValue = navnet[1];
+    navnobjekt[this.id()] = navnet[2];
+  }
+
+  rendersubbuttons(navnobjekt_fra_skjerm());
 }
