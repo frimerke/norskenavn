@@ -81,16 +81,21 @@ function oppdater_label() {
 
 function veksleNavn() {
   this.object = navnobjekt[this.id()];
+  console.log(this.object);
+  if (this.object.navn == undefined) {
+    this.object = this.object[0];
+  }
+  console.log(this.object);
   this.parent = select("#" + this.id(), ".ordobjekt");
-  this.index = this.object[0].navn.indexOf(this.parent.elt.innerText);
-  if ((this.index + 1) == this.object[0].navn.length) {
+  this.index = this.object.navn.indexOf(this.parent.elt.innerText);
+  if ((this.index + 1) == this.object.navn.length) {
     this.index = 0;
   }
   else {
     this.index = this.index + 1;
   }
   tex = this.parent.elt.childNodes[0];
-  tex.nodeValue = this.object[0].navn[this.index];
+  tex.nodeValue = this.object.navn[this.index];
 }
 
 function deleteParent() {
@@ -264,8 +269,8 @@ function lagetternavn(teller, antall) {
   var etternavnliste = []
   while (e < antall) {
     namekey = Math.floor(Math.random() * midlertidig_etternavn.length)
-    if (etternavnliste.indexOf(midlertidig_etternavn[namekey].navn) == -1 ){
-      etternavnliste.push(midlertidig_etternavn[namekey].navn);
+    if (etternavnliste.indexOf(midlertidig_etternavn[namekey]) == -1 ){
+      etternavnliste.push(midlertidig_etternavn[namekey]);
       navnobjekt.push(midlertidig_etternavn[namekey]);
       nyttetternavn = nyttetternavn + "<span class='ordobjekt etternavn' id='" + i + "'>" + midlertidig_etternavn[namekey].navn[0] + "</span> ";
       plaintext += midlertidig_etternavn[namekey].navn[0];
@@ -273,14 +278,16 @@ function lagetternavn(teller, antall) {
       e++;
     }
   }
-  return [nyttetternavn, plaintext];
+  return [nyttetternavn, plaintext, etternavnliste];
 }
 
 function nyttnavn() {
   this.parent = select("#" + this.id(), ".ordobjekt");
   if (this.parent.elt.classList[1] == "etternavn") {
+    navnet = lagetternavn(this.id(), 1);
     tex = this.parent.elt.childNodes[0];
-    tex.nodeValue = lagetternavn(this.id(), 1)[1];
+    tex.nodeValue = navnet[1];
+    navnobjekt[this.id()] = navnet[2];
   }
   else {
     navnet = lagfornavn(0, 1);
