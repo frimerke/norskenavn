@@ -2,7 +2,8 @@ var namediv;
 var gender;
 var lagreboks;
 var tagselect;
-var navnobjekt =[];
+var navnobjekt = [];
+var allenavn = [];
 
 function setup() {
   namediv = select("#navndiv");
@@ -75,17 +76,18 @@ function oppdater_label() {
   antall_etternavn_label.html(antall_etternavn.value());
 }
 
-function endreNavn() {
+function veksleNavn() {
   this.object = navnobjekt[this.id()];
-  this.index = this.object.navn.indexOf(this.html());
+  this.parent = select("#" + this.id(), ".ordobjekt");
+  this.index = this.object.navn.indexOf(this.parent.elt.innerText);
   if ((this.index + 1) == this.object.navn.length) {
     this.index = 0;
   }
   else {
     this.index = this.index + 1;
   }
-  this.html(this.object.navn[this.index]);
-
+  tex = this.parent.elt.childNodes[0];
+  tex.nodeValue = this.object.navn[this.index];
 }
 
 function deleteParent() {
@@ -195,9 +197,18 @@ function makename() {
   namediv.html("<span>" + nyttfornavn + nyttetternavn + "</span>");
   var ord = selectAll(".ordobjekt");
   for (var i = 0; i < ord.length; i++){
-    ord[i].mousePressed(endreNavn);
+    if (navnobjekt[i].navn.length > 1) {
+      cyclebutton = createDiv("<i class='fa fa-refresh' aria-hidden='true'></i>");
+      cyclebutton.class("cyclebutton subbutton");
+      cyclebutton.id(i)
+      cyclebutton.parent(ord[i]);
+      cyclebutton.mousePressed(veksleNavn);
+    }
   }
 
-
   return nyttfornavn + nyttetternavn;
+}
+
+function displaynamefromlist() {
+
 }
