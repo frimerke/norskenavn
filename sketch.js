@@ -40,7 +40,6 @@ function setup() {
   antall_fornavn.changed(oppdater_label)
   antall_etternavn = select("#antall_etternavn");
   antall_etternavn.changed(oppdater_label)
-  initialer = select("#initialer");
   egetetternavn = select("#egetetternavn")
 
   min_antall_fornavn = select("#min_antall_fornavn");
@@ -218,30 +217,25 @@ function lagfornavn(teller, antall, mf) {
   }
 
   var nyttfornavn = ""
-  var fornavnliste = []
   var plaintext = "";
   var lokalenavn = []
   while (i < antall) {
     namekey = Math.floor(Math.random() * midlertidig_fornavn.length)
-    if (fornavnliste.indexOf(midlertidig_fornavn[namekey].navn) == -1 ){
-      fornavnliste.push(midlertidig_fornavn[namekey].navn);
+    if (lokalenavn.indexOf(midlertidig_fornavn[namekey]) == -1 ){
       navnobjekt.push(midlertidig_fornavn[namekey]);
       lokalenavn.push(midlertidig_fornavn[namekey]);
-      if (((antall - i) == 1) && (initialer.checked() == true))
-      {
-        var initial = midlertidig_fornavn[namekey].navn[Math.floor(Math.random() * midlertidig_fornavn[namekey].navn.length)].substring(0, 1) + ".";
-        nyttfornavn = nyttfornavn + " " + initial;
-        i++;
-      }
-      else {
-      nyttfornavn = nyttfornavn + "<span class='ordobjekt fornavn' id='" + i + "'>" +
-      midlertidig_fornavn[namekey].navn[Math.floor(Math.random() * midlertidig_fornavn[namekey].navn.length)] +
-      "</span> ";
-      plaintext += " " + midlertidig_fornavn[namekey].navn[Math.floor(Math.random() * midlertidig_fornavn[namekey].navn.length)]
       i++;
-      }
     }
   }
+  lokalenavn.sort(function(a,b) {
+    return a.stavelser - b.stavelser;
+  });
+  for (var e = 0; e < lokalenavn.length; e++) {
+    nyttfornavn = nyttfornavn + "<span class='ordobjekt fornavn' id='" + e + "'>" +
+    lokalenavn[e].navn[Math.floor(Math.random() * lokalenavn[e].navn.length)] +
+    "</span> ";
+    plaintext += " " + lokalenavn[e].navn[Math.floor(Math.random() * lokalenavn[e].navn.length)]
+    }
   return [nyttfornavn, plaintext, lokalenavn, i]
 }
 
