@@ -168,6 +168,7 @@ function navnobjekt_fra_skjerm() {
       }
     }
     }
+  navnobjekt = skjermnavn;
   return skjermnavn;
 }
 
