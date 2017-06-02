@@ -646,13 +646,6 @@ var fornavn_menn = [
     "tag": []
   },
   {
-    "navn": ["Aksel"],
-    "stavelser": 2,
-    "antall": 4357,
-    "topp": 2010,
-    "tag": ["1800"]
-  },
-  {
     "navn": ["Albert"],
     "stavelser": 2,
     "antall": 1591,
