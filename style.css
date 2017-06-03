@@ -149,3 +149,29 @@ label {
 .subbutton:hover {
   background-color: gray;
 }
+
+
+input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+label {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 20px;
+  margin: 0px;
+  border: solid 1px white;
+  background: gray;
+  border-radius: 8px;
+}
+
+input[type=radio]:checked + label{
+  background: #50ce4e;
+}
+
+label + input[type=radio] + label {
+  border: solid 1px white;
+}
