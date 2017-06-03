@@ -1057,7 +1057,7 @@ var etternavn = [
   },
   {
     "navn": ["Hagen"],
-    "klasse": "paternalt",
+    "klasse": "geografisk",
     "stavelser": 2,
     "antall": 14169
   },
@@ -1074,7 +1074,7 @@ var etternavn = [
     "antall": 12185
   },
   {
-    "navn": ["Jacobsen", "Joakobsen"],
+    "navn": ["Jacobsen", "Jakobsen"],
     "klasse": "paternalt",
     "stavelser": 3,
     "antall": 11958

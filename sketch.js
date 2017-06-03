@@ -42,6 +42,9 @@ function setup() {
   antall_etternavn.changed(oppdater_label)
   egetetternavn = select("#egetetternavn")
 
+  etternavn_geografisk_check = select("#etternavn_geografisk_check");
+  etternavn_paternalt_check = select("#etternavn_paternalt_check");
+
   min_antall_fornavn = select("#min_antall_fornavn");
   max_antall_fornavn = select("#max_antall_fornavn");
   min_antall_etternavn = select("#min_antall_etternavn");
@@ -248,9 +251,17 @@ function lagetternavn(teller, antall) {
   for (na of etternavn) {
     if (na.stavelser > min_etternavn_stavelser) {
       if (na.antall < max_antall_etternavn.value() && na.antall > min_antall_etternavn.value()) {
-      midlertidig_etternavn.push(na);
+        if (na.klasse == "paternalt" && (etternavn_paternalt_check.checked())) {
+          midlertidig_etternavn.push(na);
+        }
+        if (na.klasse == "geografisk" && etternavn_geografisk_check.checked()) {
+          midlertidig_etternavn.push(na);
+        }
+        if (na.klasse != "geografisk" && na.klasse != "paternalt") {
+          midlertidig_etternavn.push(na);
         }
       }
+    }
   }
 
   if (egetetternavn.value() != "") {

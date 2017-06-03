@@ -13,7 +13,7 @@
 
   </script>
   <meta charset="UTF-8">
-  <title>nyttnavn.no - Navnegenerator og babynavn</title>
+  <title>NyttNavn.no - Navnegenerator for norske navn med mange muligheter</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
@@ -35,7 +35,6 @@
   <script language="javascript" type="text/javascript" src="data/fornavn_felles.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="libraries/jquery.textfill.min.js"></script>
 
 
 </head>
@@ -76,6 +75,9 @@
     <div class="gardinboks">
       <p>Eget etternavn:</p>
       <input type="text" id="egetetternavn" name="egetetternavn">
+      <p>Hvilke typer etternavn:</p>
+      <input type="checkbox" id="etternavn_geografisk_check" name="geografiske" value="geografiske" checked>Geografiske
+      <input type="checkbox" id="etternavn_paternalt_check" name="paternale" value="paternale" checked>Paternale
       <p>Antall Etternavn</p>
       <input type="range" id="antall_etternavn" name="antall_etternavn" min="1" max="4" value="1"> <span id="antall_etternavn_label"></span>
       <p>Må tilhøre flere enn <input type="number" id="min_antall_etternavn" name="quantity" min="1" max="100000" value="100">
