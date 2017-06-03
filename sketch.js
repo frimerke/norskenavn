@@ -216,6 +216,7 @@ function lagfornavn(teller, antall, mf) {
         }
       }
   }
+  console.log(midlertidig_fornavn.length);
 
   var nyttfornavn = ""
   var plaintext = "";

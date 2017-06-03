@@ -61,7 +61,7 @@ var fornavn_menn = [
     "topp": 1880
   },
   {
-    "navn": ["Leif"],
+    "navn": ["Leif", "Leiv"],
     "stavelser": 1,
     "antall": 12798,
     "topp": 1920
@@ -79,7 +79,7 @@ var fornavn_menn = [
     "topp": 1910
   },
   {
-    "navn": ["Øystein"],
+    "navn": ["Øystein", "Øistein"],
     "stavelser": 2,
     "antall": 10993,
     "topp": 1980
@@ -127,7 +127,7 @@ var fornavn_menn = [
     "topp": 1940
   },
   {
-    "navn": ["Pål", "Paul"],
+    "navn": ["Pål", "Paal", "Paul"],
     "stavelser": 1,
     "antall": 9179,
     "topp": 1970
@@ -188,7 +188,7 @@ var fornavn_menn = [
     "topp": 1960
   },
   {
-    "navn": ["Torstein"],
+    "navn": ["Torstein", "Thorstein"],
     "stavelser": 2,
     "antall": 3991,
     "topp": 1880
@@ -292,7 +292,7 @@ var fornavn_menn = [
     "tag": ["1800"]
   },
   {
-    "navn": ["Jacob", "Jakob"],
+    "navn": ["Jacob", "Jakob", "Jakub"],
     "stavelser": 2,
     "antall": 3118,
     "topp": 1880
@@ -365,7 +365,7 @@ var fornavn_menn = [
     "topp": 1880
   },
   {
-    "navn": ["Øyvind"],
+    "navn": ["Øyvind", "Øivind"],
     "stavelser": 2,
     "antall": 14020,
     "topp": 1980
@@ -1329,6 +1329,986 @@ var fornavn_menn = [
     "stavelser": 2,
     "antall": 9149,
     "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Idar"],
+    "stavelser": 2,
+    "antall": 1354,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Ingar"],
+    "stavelser": 2,
+    "antall": 1819,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Inge"],
+    "stavelser": 2,
+    "antall": 4938,
+    "topp": 1940,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Ingebrigt"],
+    "stavelser": 3,
+    "antall": 356,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Ingolf"],
+    "stavelser": 2,
+    "antall": 521,
+    "topp": 1910,
+    "tag": []
+  },
+  {
+    "navn": ["Ingvald"],
+    "stavelser": 2,
+    "antall": 647,
+    "topp": 1890,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Ingvar"],
+    "stavelser": 2,
+    "antall": 1245,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Iver"],
+    "stavelser": 2,
+    "antall": 2708,
+    "topp": 2010,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Jarl"],
+    "stavelser": 1,
+    "antall": 1585,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Jarle"],
+    "stavelser": 2,
+    "antall": 6501,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Joar"],
+    "stavelser": 2,
+    "antall": 1371,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Johnny", "Jonny"],
+    "stavelser": 2,
+    "antall": 4561,
+    "topp": 1950,
+    "tag": []
+  },
+  {
+    "navn": ["Jose"],
+    "stavelser": 2,
+    "antall": 864,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Jostein"],
+    "stavelser": 2,
+    "antall": 6071,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Julian"],
+    "stavelser": 3,
+    "antall": 3336,
+    "topp": 2000,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Julius"],
+    "stavelser": 3,
+    "antall": 531,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Jørn"],
+    "stavelser": 1,
+    "antall": 5890,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Kåre", "Kaare"],
+    "stavelser": 2,
+    "antall": 9102,
+    "topp": 1920,
+    "tag": []
+  },
+  {
+    "navn": ["Kai"],
+    "stavelser": 1,
+    "antall": 4913,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Karstein"],
+    "stavelser": 2,
+    "antall": 758,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Ken"],
+    "stavelser": 1,
+    "antall": 1544,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Kent"],
+    "stavelser": 1,
+    "antall": 2469,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Ketil", "Kjetil"],
+    "stavelser": 2,
+    "antall": 2539,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Kevin"],
+    "stavelser": 2,
+    "antall": 4060,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Kjartan"],
+    "stavelser": 2,
+    "antall": 1223,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Kjell"],
+    "stavelser": 1,
+    "antall": 26993,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Klaus"],
+    "stavelser": 1,
+    "antall": 822,
+    "topp": 1940,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Kolbjørn"],
+    "stavelser": 2,
+    "antall": 1001,
+    "topp": 1900,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Konrad"],
+    "stavelser": 2,
+    "antall": 1263,
+    "topp": 1890,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Kristen"],
+    "stavelser": 2,
+    "antall": 776,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Kurt"],
+    "stavelser": 1,
+    "antall": 3508,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Kyrre"],
+    "stavelser": 2,
+    "antall": 927,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Laurits", "Lauritz"],
+    "stavelser": 2,
+    "antall": 700,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Leander"],
+    "stavelser": 3,
+    "antall": 1963,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Leo"],
+    "stavelser": 2,
+    "antall": 2029,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Leon"],
+    "stavelser": 2,
+    "antall": 3448,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Levi"],
+    "stavelser": 2,
+    "antall": 726,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Liam"],
+    "stavelser": 2,
+    "antall": 2712,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Magnar"],
+    "stavelser": 2,
+    "antall": 2522,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Magne"],
+    "stavelser": 2,
+    "antall": 8578,
+    "topp": 1930,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Malvin"],
+    "stavelser": 2,
+    "antall": 493,
+    "topp": 1910,
+    "tag": []
+  },
+  {
+    "navn": ["Marius"],
+    "stavelser": 3,
+    "antall": 16217,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Matheo"],
+    "stavelser": 3,
+    "antall": 1735,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Michael", "Mikael"],
+    "stavelser": 3,
+    "antall": 4762,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Michal", "Mikal"],
+    "stavelser": 2,
+    "antall": 776,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Mio"],
+    "stavelser": 1,
+    "antall": 361,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Mons"],
+    "stavelser": 1,
+    "antall": 395,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Morten"],
+    "stavelser": 2,
+    "antall": 21949,
+    "topp": 1970,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Nicholas"],
+    "stavelser": 3,
+    "antall": 1230,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Nicklas", "Niklas"],
+    "stavelser": 2,
+    "antall": 2700,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Noah"],
+    "stavelser": 2,
+    "antall": 4520,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Normann"],
+    "stavelser": 2,
+    "antall": 1516,
+    "topp": 1910,
+    "tag": []
+  },
+  {
+    "navn": ["Norvald"],
+    "stavelser": 2,
+    "antall": 571,
+    "topp": 1920,
+    "tag": []
+  },
+  {
+    "navn": ["Oddbjørn"],
+    "stavelser": 2,
+    "antall": 2540,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Oddmund"],
+    "stavelser": 2,
+    "antall": 1341,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Oddvar"],
+    "stavelser": 2,
+    "antall": 4745,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Odin"],
+    "stavelser": 2,
+    "antall": 2721,
+    "topp": 2010,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Ola"],
+    "stavelser": 2,
+    "antall": 9314,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Olai"],
+    "stavelser": 2,
+    "antall": 666,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Oluf"],
+    "stavelser": 2,
+    "antall": 143,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Osvald"],
+    "stavelser": 2,
+    "antall": 276,
+    "topp": 1900,
+    "tag": []
+  },
+  {
+    "navn": ["Ottar"],
+    "stavelser": 2,
+    "antall": 1736,
+    "topp": 1910,
+    "tag": []
+  },
+  {
+    "navn": ["Ove"],
+    "stavelser": 2,
+    "antall": 5974,
+    "topp": 1950,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Patrick"],
+    "stavelser": 2,
+    "antall": 3014,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Peter"],
+    "stavelser": 2,
+    "antall": 4734,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Petter"],
+    "stavelser": 2,
+    "antall": 10264,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Preben"],
+    "stavelser": 2,
+    "antall": 2146,
+    "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Ragnar"],
+    "stavelser": 2,
+    "antall": 4484,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Ragnvald"],
+    "stavelser": 2,
+    "antall": 576,
+    "topp": 1900,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Rasmus"],
+    "stavelser": 2,
+    "antall": 1636,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Raymond", "Raymon"],
+    "stavelser": 2,
+    "antall": 2989,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Reidar"],
+    "stavelser": 2,
+    "antall": 6119,
+    "topp": 1920,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Remi"],
+    "stavelser": 2,
+    "antall": 1474,
+    "topp": 1980,
+    "tag": []
+  },
+  {
+    "navn": ["Richard", "Rikard"],
+    "stavelser": 2,
+    "antall": 4000,
+    "topp": 1970,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Roar"],
+    "stavelser": 2,
+    "antall": 6915,
+    "topp": 1950,
+    "tag": []
+  },
+  {
+    "navn": ["Robin"],
+    "stavelser": 2,
+    "antall": 4916,
+    "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Roger"],
+    "stavelser": 2,
+    "antall": 8873,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Rolf"],
+    "stavelser": 1,
+    "antall": 13061,
+    "topp": 1920,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Ronald"],
+    "stavelser": 2,
+    "antall": 1036,
+    "topp": 1930,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Ronny"],
+    "stavelser": 2,
+    "antall": 5709,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Roy"],
+    "stavelser": 1,
+    "antall": 7464,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Ruben"],
+    "stavelser": 2,
+    "antall": 3114,
+    "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Rudolf"],
+    "stavelser": 2,
+    "antall": 336,
+    "topp": 1890,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Runar"],
+    "stavelser": 2,
+    "antall": 3416,
+    "topp": 1950,
+    "tag": []
+  },
+  {
+    "navn": ["Rune"],
+    "stavelser": 2,
+    "antall": 19012,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Samuel"],
+    "stavelser": 3,
+    "antall": 2225,
+    "topp": 2010,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Severin"],
+    "stavelser": 3,
+    "antall": 347,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sigbjørn"],
+    "stavelser": 2,
+    "antall": 1931,
+    "topp": 1940,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sigmund"],
+    "stavelser": 2,
+    "antall": 3039,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Sigurd"],
+    "stavelser": 2,
+    "antall": 7124,
+    "topp": 1890,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sigvald"],
+    "stavelser": 2,
+    "antall": 254,
+    "topp": 1890,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sigvart"],
+    "stavelser": 2,
+    "antall": 212,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sigve"],
+    "stavelser": 2,
+    "antall": 1597,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Simen"],
+    "stavelser": 2,
+    "antall": 8614,
+    "topp": 1990,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Simon"],
+    "stavelser": 2,
+    "antall": 5271,
+    "topp": 1990,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sindre"],
+    "stavelser": 2,
+    "antall": 7543,
+    "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Sivert"],
+    "stavelser": 2,
+    "antall": 2774,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sjur"],
+    "stavelser": 1,
+    "antall": 1307,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Snorre"],
+    "stavelser": 2,
+    "antall": 1671,
+    "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Sondre"],
+    "stavelser": 2,
+    "antall": 8968,
+    "topp": 1990,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Stefan"],
+    "stavelser": 2,
+    "antall": 2053,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Steffen", "Stephen"],
+    "stavelser": 2,
+    "antall": 3786,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Steinar"],
+    "stavelser": 2,
+    "antall": 11245,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Sten"],
+    "stavelser": 1,
+    "antall": 1596,
+    "topp": 1970,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Stian"],
+    "stavelser": 2,
+    "antall": 15295,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Stig"],
+    "stavelser": 1,
+    "antall": 9421,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Storm"],
+    "stavelser": 1,
+    "antall": 1235,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Ståle"],
+    "stavelser": 2,
+    "antall": 3699,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Sveinung"],
+    "stavelser": 2,
+    "antall": 1715,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Sven", "Svenn", "Svend"],
+    "stavelser": 1,
+    "antall": 4017,
+    "topp": 1940,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sverre"],
+    "stavelser": 2,
+    "antall": 8745,
+    "topp": 1910,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Søren"],
+    "stavelser": 2,
+    "antall": 480,
+    "topp": 1930,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Thoralf", "Toralf"],
+    "stavelser": 2,
+    "antall": 700,
+    "topp": 1910,
+    "tag": []
+  },
+  {
+    "navn": ["Torbjørn", "Thorbjørn"],
+    "stavelser": 2,
+    "antall": 7007,
+    "topp": 1930,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Tore", "Thore"],
+    "stavelser": 2,
+    "antall": 16085,
+    "topp": 1940,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Torleif", "Thorleif", "Torleiv"],
+    "stavelser": 2,
+    "antall": 1241,
+    "topp": 1910,
+    "tag": []
+  },
+  {
+    "navn": ["Thorvald", "Torvald"],
+    "stavelser": 2,
+    "antall": 700,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Tim"],
+    "stavelser": 1,
+    "antall": 1274,
+    "topp": 1980,
+    "tag": []
+  },
+  {
+    "navn": ["Tommy"],
+    "stavelser": 2,
+    "antall": 9254,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Toralf"],
+    "stavelser": 2,
+    "antall": 581,
+    "topp": 1910,
+    "tag": []
+  },
+  {
+    "navn": ["Tord"],
+    "stavelser": 1,
+    "antall": 1619,
+    "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Torfinn"],
+    "stavelser": 2,
+    "antall": 1092,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Torgeir"],
+    "stavelser": 2,
+    "antall": 3374,
+    "topp": 1960,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Torjus"],
+    "stavelser": 2,
+    "antall": 940,
+    "topp": 2010,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Tormod"],
+    "stavelser": 2,
+    "antall": 2953,
+    "topp": 1930,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Trond"],
+    "stavelser": 1,
+    "antall": 17142,
+    "topp": 1960,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Truls"],
+    "stavelser": 1,
+    "antall": 3134,
+    "topp": 2000,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Trygve"],
+    "stavelser": 2,
+    "antall": 5298,
+    "topp": 1910,
+    "tag": []
+  },
+  {
+    "navn": ["Trym"],
+    "stavelser": 1,
+    "antall": 3176,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Ulf"],
+    "stavelser": 1,
+    "antall": 2321,
+    "topp": 1950,
+    "tag": []
+  },
+  {
+    "navn": ["Ulrik"],
+    "stavelser": 2,
+    "antall": 2327,
+    "topp": 2010,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Vebjørn"],
+    "stavelser": 2,
+    "antall": 1742,
+    "topp": 1990,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Vegar", "Vegard"],
+    "stavelser": 2,
+    "antall": 8159,
+    "topp": 1980,
+    "tag": []
+  },
+  {
+    "navn": ["Vetle"],
+    "stavelser": 2,
+    "antall": 3350,
+    "topp": 2000,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Viggo"],
+    "stavelser": 2,
+    "antall": 1380,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Viljar"],
+    "stavelser": 2,
+    "antall": 1005,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Yngvar"],
+    "stavelser": 2,
+    "antall": 866,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Yngve"],
+    "stavelser": 2,
+    "antall": 2292,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Åsmund"],
+    "stavelser": 2,
+    "antall": 2045,
+    "topp": 1920,
+    "tag": []
+  },
+  {
+    "navn": ["Ørjan"],
+    "stavelser": 2,
+    "antall": 3613,
+    "topp": 1980,
     "tag": []
   }
 ]

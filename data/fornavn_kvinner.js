@@ -3,7 +3,8 @@ var fornavn_kvinner = [
     "navn": ["Kine"],
     "stavelser": 2,
     "antall": 4164,
-    "topp": 1980
+    "topp": 1980,
+    "tag": []
   },
   {
     "navn": ["Heidi"],
@@ -27,7 +28,8 @@ var fornavn_kvinner = [
     "navn": ["Tine"],
     "stavelser": 2,
     "antall": 2194,
-    "topp": 1990
+    "topp": 1990,
+    "tag": []
   },
   {
     "navn": ["Mari"],
@@ -109,7 +111,8 @@ var fornavn_kvinner = [
     "navn": ["Trine"],
     "stavelser": 2,
     "antall": 9664,
-    "topp": 1970
+    "topp": 1970,
+    "tag": ["1800"]
   },
   {
     "navn": ["Ulrikke"],
@@ -172,7 +175,7 @@ var fornavn_kvinner = [
     "topp": 2010
   },
   {
-    "navn": ["Signe"],
+    "navn": ["Signe", "Signy"],
     "stavelser": 2,
     "antall": 5767,
     "topp": 1900
@@ -199,7 +202,8 @@ var fornavn_kvinner = [
     "navn": ["Vigdis"],
     "stavelser": 2,
     "antall": 6066,
-    "topp": 1950
+    "topp": 1950,
+    "tag": []
   },
   {
     "navn": ["Inga"],
@@ -212,7 +216,7 @@ var fornavn_kvinner = [
     "stavelser": 2,
     "antall": 385,
     "topp": 830,
-    "tag": ["dronning"]
+    "tag": ["dronning", "1800"]
   },
   {
     "navn": ["Ragnhild"],
@@ -255,13 +259,6 @@ var fornavn_kvinner = [
     "antall": 144,
     "topp": 1020,
     "tag": ["dronning"]
-  },
-  {
-    "navn": ["Tora"],
-    "stavelser": 2,
-    "antall": 1786,
-    "topp": 1900,
-    "tag": ["dronning"],
   },
   {
     "navn": ["Ingrid", "Ingerid"],
@@ -313,7 +310,7 @@ var fornavn_kvinner = [
     "tag": ["dronning"]
   },
   {
-    "navn": ["Margrete"],
+    "navn": ["Margrete", "Margrethe"],
     "stavelser": 3,
     "antall": 1278,
     "topp": 1890,
@@ -334,7 +331,7 @@ var fornavn_kvinner = [
     "tag": ["dronning", "1800"]
   },
   {
-    "navn": ["Margaret"],
+    "navn": ["Margaret", "Margareth"],
     "stavelser": 3,
     "antall": 1042,
     "topp": 1950,
@@ -411,7 +408,7 @@ var fornavn_kvinner = [
     "tag": ["dronning"]
   },
   {
-    "navn": ["Louise"],
+    "navn": ["Louise", "Louvise", "Lovise", "Luise"],
     "stavelser": 3,
     "antall": 1693,
     "topp": 1880,
@@ -439,18 +436,18 @@ var fornavn_kvinner = [
     "tag": ["dronning"]
   },
   {
-    "navn": ["Mathilde"],
+    "navn": ["Mathilde", "Matilde"],
     "stavelser": 3,
     "antall": 4802,
     "topp": 1880,
-    "tag": ["dronning"]
+    "tag": ["dronning", "1800"]
   },
   {
     "navn": ["Magdalene"],
     "stavelser": 4,
     "antall": 61,
     "topp": 1700,
-    "tag": ["dronning"]
+    "tag": ["dronning", "1800"]
   },
   {
     "navn": ["Amalie"],
@@ -464,13 +461,6 @@ var fornavn_kvinner = [
     "stavelser": 2,
     "antall": 1129,
     "topp": 1900,
-    "tag": ["dronning"]
-  },
-  {
-    "navn": ["Elisabet"],
-    "stavelser": 4,
-    "antall": 908,
-    "topp": 1880,
     "tag": ["dronning"]
   },
   {
@@ -566,7 +556,7 @@ var fornavn_kvinner = [
     "topp": 2010
   },
   {
-    "navn": ["Maja", "Maia"],
+    "navn": ["Maja", "Maia", "Maya"],
     "stavelser": 2,
     "antall": 5084,
     "topp": 2010
@@ -611,7 +601,8 @@ var fornavn_kvinner = [
     "navn": ["Mia"],
     "stavelser": 2,
     "antall": 6389,
-    "topp": 2000
+    "topp": 2000,
+    "tag": []
   },
   {
     "navn": ["Aurora"],
@@ -647,7 +638,8 @@ var fornavn_kvinner = [
     "navn": ["Tuva"],
     "stavelser": 2,
     "antall": 5000,
-    "topp": 2000
+    "topp": 2000,
+    "tag": []
   },
   {
     "navn": ["Alma"],
@@ -725,7 +717,8 @@ var fornavn_kvinner = [
     "navn": ["Mathea"],
     "stavelser": 3,
     "antall": 2281,
-    "topp": 2000
+    "topp": 2000,
+    "tag": ["1800"]
   },
   {
     "navn": ["Julia"],
@@ -1330,7 +1323,7 @@ var fornavn_kvinner = [
     "stavelser": 4,
     "antall": 18500,
     "topp": 1970,
-    "tag": ["1800"]
+    "tag": ["1800", "dronning"]
   },
   {
     "navn": ["Ella"],
@@ -1480,10 +1473,1172 @@ var fornavn_kvinner = [
     "tag": []
   },
   {
-    "navn": ["Gunnvor"],
+    "navn": ["Gunnvor", "Gunvor"],
     "stavelser": 2,
     "antall": 550,
     "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Guri"],
+    "stavelser": 2,
+    "antall": 2251,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Guro"],
+    "stavelser": 2,
+    "antall": 4168,
+    "topp": 1990,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Haldis"],
+    "stavelser": 2,
+    "antall": 1371,
+    "topp": 1910,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Hanne"],
+    "stavelser": 2,
+    "antall": 15317,
+    "topp": 1960,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Hansine"],
+    "stavelser": 2,
+    "antall": 89,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Harriet"],
+    "stavelser": 3,
+    "antall": 677,
+    "topp": 1900,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Hege"],
+    "stavelser": 2,
+    "antall": 12942,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Helena"],
+    "stavelser": 3,
+    "antall": 2130,
+    "topp": 2000,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Helga"],
+    "stavelser": 2,
+    "antall": 3615,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Helle"],
+    "stavelser": 2,
+    "antall": 2729,
+    "topp": 1960,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Henny"],
+    "stavelser": 2,
+    "antall": 1473,
+    "topp": 1910,
+    "tag": []
+  },
+  {
+    "navn": ["Henriette"],
+    "stavelser": 4,
+    "antall": 4985,
+    "topp": 1990,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Herdis"],
+    "stavelser": 2,
+    "antall": 729,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Hermine"],
+    "stavelser": 3,
+    "antall": 909,
+    "topp": 2010,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Hilda"],
+    "stavelser": 2,
+    "antall": 685,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Hildegunn"],
+    "stavelser": 3,
+    "antall": 1878,
+    "topp": 1950,
+    "tag": []
+  },
+  {
+    "navn": ["Hildur"],
+    "stavelser": 2,
+    "antall": 1195,
+    "topp": 1910,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Hjørdis"],
+    "stavelser": 2,
+    "antall": 1680,
+    "topp": 1910,
+    "tag": []
+  },
+  {
+    "navn": ["Hulda"],
+    "stavelser": 2,
+    "antall": 280,
+    "topp": 1890,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Ina"],
+    "stavelser": 2,
+    "antall": 3195,
+    "topp": 1980,
+    "tag": []
+  },
+  {
+    "navn": ["Ine"],
+    "stavelser": 2,
+    "antall": 2100,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Inga"],
+    "stavelser": 2,
+    "antall": 2854,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Ingebjørg"],
+    "stavelser": 3,
+    "antall": 3481,
+    "topp": 1930,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Ingeborg"],
+    "stavelser": 3,
+    "antall": 7139,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Inger"],
+    "stavelser": 2,
+    "antall": 30069,
+    "topp": 1940,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Ingjerd"],
+    "stavelser": 2,
+    "antall": 1252,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Ingrid"],
+    "stavelser": 2,
+    "antall": 24638,
+    "topp": 1920,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Ingunn"],
+    "stavelser": 2,
+    "antall": 5972,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Ingvild"],
+    "stavelser": 2,
+    "antall": 6207,
+    "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Irene"],
+    "stavelser": 3,
+    "antall": 7952,
+    "topp": 1950,
+    "tag": []
+  },
+  {
+    "navn": ["Iris"],
+    "stavelser": 2,
+    "antall": 1573,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Isabel", "Isabell"],
+    "stavelser": 3,
+    "antall": 3000,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Iselin"],
+    "stavelser": 3,
+    "antall": 2954,
+    "topp": 1980,
+    "tag": []
+  },
+  {
+    "navn": ["Jane"],
+    "stavelser": 2,
+    "antall": 2369,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Janne"],
+    "stavelser": 2,
+    "antall": 7385,
+    "topp": 1970,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Jannicke"],
+    "stavelser": 3,
+    "antall": 1971,
+    "topp": 1980,
+    "tag": []
+  },
+  {
+    "navn": ["Jeanette"],
+    "stavelser": 2,
+    "antall": 3927,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Joanna", "Johanna"],
+    "stavelser": 3,
+    "antall": 3329,
+    "topp": 1980,
+    "tag": []
+  },
+  {
+    "navn": ["Jorunn", "Jorun"],
+    "stavelser": 2,
+    "antall": 12061,
+    "topp": 1940,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Judith"],
+    "stavelser": 2,
+    "antall": 1658,
+    "topp": 1920,
+    "tag": []
+  },
+  {
+    "navn": ["June"],
+    "stavelser": 2,
+    "antall": 2646,
+    "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Karianne"],
+    "stavelser": 4,
+    "antall": 2590,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Karin"],
+    "stavelser": 2,
+    "antall": 12445,
+    "topp": 1940,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Karina"],
+    "stavelser": 3,
+    "antall": 2975,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Karine"],
+    "stavelser": 3,
+    "antall": 911,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Karolina"],
+    "stavelser": 4,
+    "antall": 1105,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Kirsten"],
+    "stavelser": 2,
+    "antall": 7835,
+    "topp": 1940,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Kjellaug"],
+    "stavelser": 2,
+    "antall": 1891,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Klara"],
+    "stavelser": 2,
+    "antall": 2190,
+    "topp": 1900,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Konstanse"],
+    "stavelser": 3,
+    "antall": 193,
+    "topp": 1890,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Laila"],
+    "stavelser": 2,
+    "antall": 11015,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Laura"],
+    "stavelser": 2,
+    "antall": 1807,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Lea", "Leah"],
+    "stavelser": 2,
+    "antall": 1735,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Lene"],
+    "stavelser": 2,
+    "antall": 9837,
+    "topp": 1970,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Lill"],
+    "stavelser": 1,
+    "antall": 3045,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Lillian"],
+    "stavelser": 3,
+    "antall": 6083,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Lina"],
+    "stavelser": 2,
+    "antall": 2786,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Line"],
+    "stavelser": 2,
+    "antall": 10082,
+    "topp": 1970,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Linn"],
+    "stavelser": 1,
+    "antall": 8403,
+    "topp": 1980,
+    "tag": []
+  },
+  {
+    "navn": ["Lisbeth"],
+    "stavelser": 2,
+    "antall": 5782,
+    "topp": 1960,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Lone"],
+    "stavelser": 2,
+    "antall": 1398,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Lotte"],
+    "stavelser": 2,
+    "antall": 1785,
+    "topp": 2010,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Luna"],
+    "stavelser": 2,
+    "antall": 763,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Lydia"],
+    "stavelser": 3,
+    "antall": 681,
+    "topp": 1890,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Lykke"],
+    "stavelser": 2,
+    "antall": 815,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Madeleine", "Madelen"],
+    "stavelser": 3,
+    "antall": 4000,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Magda"],
+    "stavelser": 2,
+    "antall": 409,
+    "topp": 1890,
+    "tag": []
+  },
+  {
+    "navn": ["Magdalena"],
+    "stavelser": 4,
+    "antall": 1571,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Magna"],
+    "stavelser": 2,
+    "antall": 285,
+    "topp": 1890,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Magnhild"],
+    "stavelser": 2,
+    "antall": 2814,
+    "topp": 1910,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Mai"],
+    "stavelser": 1,
+    "antall": 1396,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Maiken"],
+    "stavelser": 2,
+    "antall": 2271,
+    "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Malene", "Marlene"],
+    "stavelser": 3,
+    "antall": 3400,
+    "topp": 1930,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Malin"],
+    "stavelser": 2,
+    "antall": 9795,
+    "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Margit"],
+    "stavelser": 2,
+    "antall": 3013,
+    "topp": 1900,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Margot"],
+    "stavelser": 2,
+    "antall": 1104,
+    "topp": 1920,
+    "tag": []
+  },
+  {
+    "navn": ["Mariann"],
+    "stavelser": 3,
+    "antall": 3193,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Marina"],
+    "stavelser": 3,
+    "antall": 1398,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Marion"],
+    "stavelser": 3,
+    "antall": 1961,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Marita"],
+    "stavelser": 3,
+    "antall": 4451,
+    "topp": 1990,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Martine"],
+    "stavelser": 3,
+    "antall": 7269,
+    "topp": 2000,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Merete", "Merethe"],
+    "stavelser": 3,
+    "antall": 7000,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Michelle"],
+    "stavelser": 2,
+    "antall": 2288,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Mie"],
+    "stavelser": 2,
+    "antall": 1511,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Mildrid"],
+    "stavelser": 2,
+    "antall": 688,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Milla"],
+    "stavelser": 2,
+    "antall": 1064,
+    "topp": 2010,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Mina"],
+    "stavelser": 2,
+    "antall": 3902,
+    "topp": 2000,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Mira"],
+    "stavelser": 2,
+    "antall": 803,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Miriam"],
+    "stavelser": 3,
+    "antall": 2994,
+    "topp": 1990,
+    "tag": []
+  },
+  {
+    "navn": ["Mona"],
+    "stavelser": 2,
+    "antall": 12526,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Monika", "Monica"],
+    "stavelser": 3,
+    "antall": 14849,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Målfrid"],
+    "stavelser": 2,
+    "antall": 2007,
+    "topp": 1920,
+    "tag": []
+  },
+  {
+    "navn": ["Nanna"],
+    "stavelser": 2,
+    "antall": 600,
+    "topp": 1890,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Natalia"],
+    "stavelser": 4,
+    "antall": 1791,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Natalie", "Nathalie"],
+    "stavelser": 4,
+    "antall": 4000,
+    "topp": 2000,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Nikoline"],
+    "stavelser": 4,
+    "antall": 547,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Oddbjørg"],
+    "stavelser": 2,
+    "antall": 1558,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Oddlaug"],
+    "stavelser": 2,
+    "antall": 720,
+    "topp": 1920,
+    "tag": []
+  },
+  {
+    "navn": ["Oddny"],
+    "stavelser": 2,
+    "antall": 1776,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Oddrun"],
+    "stavelser": 2,
+    "antall": 1610,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Oddveig"],
+    "stavelser": 2,
+    "antall": 1222,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Olaug"],
+    "stavelser": 2,
+    "antall": 2956,
+    "topp": 1920,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Olava"],
+    "stavelser": 3,
+    "antall": 208,
+    "topp": 1800,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Olga"],
+    "stavelser": 2,
+    "antall": 2717,
+    "topp": 1890,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Paula"],
+    "stavelser": 2,
+    "antall": 900,
+    "topp": 1910,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Pauline"],
+    "stavelser": 3,
+    "antall": 538,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Pernille"],
+    "stavelser": 3,
+    "antall": 3952,
+    "topp": 2000,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Petra"],
+    "stavelser": 2,
+    "antall": 1311,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Pia"],
+    "stavelser": 2,
+    "antall": 3334,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Rakel"],
+    "stavelser": 2,
+    "antall": 1520,
+    "topp": 1900,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Rannveig", "Ranveig"],
+    "stavelser": 2,
+    "antall": 1131,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Rebecca", "Rebekka"],
+    "stavelser": 3,
+    "antall": 4500,
+    "topp": 1990,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Reidun"],
+    "stavelser": 2,
+    "antall": 9977,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Renate"],
+    "stavelser": 3,
+    "antall": 3481,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Rigmor"],
+    "stavelser": 2,
+    "antall": 3555,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Rita"],
+    "stavelser": 2,
+    "antall": 6640,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Ronja"],
+    "stavelser": 2,
+    "antall": 2083,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Ruth"],
+    "stavelser": 1,
+    "antall": 7682,
+    "topp": 1920,
+    "tag": []
+  },
+  {
+    "navn": ["Rønnaug"],
+    "stavelser": 2,
+    "antall": 809,
+    "topp": 1880,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Saga"],
+    "stavelser": 2,
+    "antall": 566,
+    "topp": 2010,
+    "tag": ["schwung", "fantasy"]
+  },
+  {
+    "navn": ["Sandra"],
+    "stavelser": 2,
+    "antall": 6032,
+    "topp": 1980,
+    "tag": []
+  },
+  {
+    "navn": ["Sanna"],
+    "stavelser": 2,
+    "antall": 1359,
+    "topp": 2010,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sissel", "Sidsel"],
+    "stavelser": 2,
+    "antall": 10101,
+    "topp": 1950,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sigrun", "Sigrunn"],
+    "stavelser": 2,
+    "antall": 3200,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Silje"],
+    "stavelser": 2,
+    "antall": 15526,
+    "topp": 1980,
+    "tag": []
+  },
+  {
+    "navn": ["Siv", "Siw"],
+    "stavelser": 1,
+    "antall": 7189,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Solbjørg"],
+    "stavelser": 2,
+    "antall": 1394,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Solfrid"],
+    "stavelser": 2,
+    "antall": 3721,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Stina"],
+    "stavelser": 2,
+    "antall": 1461,
+    "topp": 2000,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sunniva"],
+    "stavelser": 3,
+    "antall": 4258,
+    "topp": 2000,
+    "tag": []
+  },
+  {
+    "navn": ["Susan"],
+    "stavelser": 2,
+    "antall": 701,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Susanne"],
+    "stavelser": 3,
+    "antall": 4330,
+    "topp": 1990,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Svanhild"],
+    "stavelser": 2,
+    "antall": 2252,
+    "topp": 1920,
+    "tag": []
+  },
+  {
+    "navn": ["Sylvi"],
+    "stavelser": 2,
+    "antall": 1188,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Sylvia"],
+    "stavelser": 3,
+    "antall": 1149,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Synne"],
+    "stavelser": 2,
+    "antall": 3925,
+    "topp": 2000,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Synnøve"],
+    "stavelser": 3,
+    "antall": 6275,
+    "topp": 1920,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Sølvi"],
+    "stavelser": 2,
+    "antall": 3572,
+    "topp": 1950,
+    "tag": []
+  },
+  {
+    "navn": ["Tanja"],
+    "stavelser": 2,
+    "antall": 1354,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Therese"],
+    "stavelser": 3,
+    "antall": 6229,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Tora", "Thora"],
+    "stavelser": 2,
+    "antall": 2000,
+    "topp": 1890,
+    "tag": ["1800", "dronning"]
+  },
+  {
+    "navn": ["Tilde"],
+    "stavelser": 2,
+    "antall": 922,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Tina"],
+    "stavelser": 2,
+    "antall": 5235,
+    "topp": 1980,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Tomine"],
+    "stavelser": 3,
+    "antall": 940,
+    "topp": 2010,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Tone"],
+    "stavelser": 2,
+    "antall": 14881,
+    "topp": 1960,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Tonje"],
+    "stavelser": 2,
+    "antall": 6794,
+    "topp": 1990,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Torbjørg"],
+    "stavelser": 2,
+    "antall": 1116,
+    "topp": 1930,
+    "tag": []
+  },
+  {
+    "navn": ["Tordis"],
+    "stavelser": 2,
+    "antall": 1936,
+    "topp": 1920,
+    "tag": []
+  },
+  {
+    "navn": ["Torhild", "Toril", "Torild", "Torill"],
+    "stavelser": 2,
+    "antall": 2625,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Torunn"],
+    "stavelser": 2,
+    "antall": 4410,
+    "topp": 1950,
+    "tag": []
+  },
+  {
+    "navn": ["Tove"],
+    "stavelser": 2,
+    "antall": 14440,
+    "topp": 1950,
+    "tag": []
+  },
+  {
+    "navn": ["Trude"],
+    "stavelser": 2,
+    "antall": 4981,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Turid"],
+    "stavelser": 2,
+    "antall": 10872,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Ulla"],
+    "stavelser": 2,
+    "antall": 756,
+    "topp": 1950,
+    "tag": []
+  },
+  {
+    "navn": ["Unn"],
+    "stavelser": 1,
+    "antall": 1340,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Unni"],
+    "stavelser": 2,
+    "antall": 9234,
+    "topp": 1950,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Valborg"],
+    "stavelser": 2,
+    "antall": 569,
+    "topp": 1900,
+    "tag": ["1800"]
+  },
+  {
+    "navn": ["Vera"],
+    "stavelser": 2,
+    "antall": 2143,
+    "topp": 1940,
+    "tag": []
+  },
+  {
+    "navn": ["Veronica", "Veronika"],
+    "stavelser": 4,
+    "antall": 5000,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Vibeke"],
+    "stavelser": 3,
+    "antall": 4946,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Vivi"],
+    "stavelser": 2,
+    "antall": 1024,
+    "topp": 1960,
+    "tag": []
+  },
+  {
+    "navn": ["Vivian"],
+    "stavelser": 3,
+    "antall": 1704,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Wenche"],
+    "stavelser": 2,
+    "antall": 14006,
+    "topp": 1950,
+    "tag": []
+  },
+  {
+    "navn": ["Ylva"],
+    "stavelser": 2,
+    "antall": 1478,
+    "topp": 2010,
+    "tag": []
+  },
+  {
+    "navn": ["Yvonne"],
+    "stavelser": 2,
+    "antall": 1802,
+    "topp": 1970,
+    "tag": []
+  },
+  {
+    "navn": ["Åshild"],
+    "stavelser": 2,
+    "antall": 3066,
+    "topp": 1950,
     "tag": []
   }
 ]
