@@ -198,19 +198,19 @@ function rendersubbuttons(ordobjekter) {
   }
   for (var i = 0; i < ord.length; i++){
     if (ordobjekter[i].navn.length > 1) {
-      cyclebutton = createDiv("<i class='fa fa-refresh' aria-hidden='true'></i>");
+      cyclebutton = createDiv("<i onclick=\"ga('send', 'event', 'button', 'veksle staving')\" class='fa fa-refresh' aria-hidden='true'></i>");
       cyclebutton.class("cyclebutton subbutton");
       cyclebutton.id(i)
       cyclebutton.parent(ord[i]);
       cyclebutton.mousePressed(veksleNavn);
     }
-    nyttnavnbutton = createDiv("<i class='fa fa-plus-circle' aria-hidden='true'></i>");
+    nyttnavnbutton = createDiv("<i onclick=\"ga('send', 'event', 'button', 'bytt ett navn')\" class='fa fa-plus-circle' aria-hidden='true'></i>");
     nyttnavnbutton.class("nyttnavnbutton subbutton");
     nyttnavnbutton.id(i);
     nyttnavnbutton.parent(ord[i]);
     nyttnavnbutton.mousePressed(nyttnavn);
     if (ordobjekter[i].betydning != null) {
-      infobutton = createDiv("<i class='fa fa-info-circle' aria-hidden='true'></i>");
+      infobutton = createDiv("<i onclick=\"ga('send', 'event', 'button', 'vis info')\" class='fa fa-info-circle' aria-hidden='true'></i>");
       infobutton.class("infobutton subbutton");
       infobutton.id(i);
       infobutton.parent(ord[i]);
