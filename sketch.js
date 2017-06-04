@@ -204,13 +204,13 @@ function rendersubbuttons(ordobjekter) {
       cyclebutton.parent(ord[i]);
       cyclebutton.mousePressed(veksleNavn);
     }
-    nyttnavnbutton = createDiv("<i onclick=\"ga('send', 'event', 'button', 'bytt ett navn')\" class='fa fa-plus-circle' aria-hidden='true'></i>");
+    nyttnavnbutton = createDiv("<i class='fa fa-plus-circle' aria-hidden='true'></i>");
     nyttnavnbutton.class("nyttnavnbutton subbutton");
     nyttnavnbutton.id(i);
     nyttnavnbutton.parent(ord[i]);
     nyttnavnbutton.mousePressed(nyttnavn);
     if (ordobjekter[i].betydning != null) {
-      infobutton = createDiv("<i onclick=\"ga('send', 'event', 'button', 'vis info')\" class='fa fa-info-circle' aria-hidden='true'></i>");
+      infobutton = createDiv("<i onclick=\"\" class='fa fa-info-circle' aria-hidden='true'></i>");
       infobutton.class("infobutton subbutton");
       infobutton.id(i);
       infobutton.parent(ord[i]);
@@ -306,6 +306,7 @@ function lagetternavn(teller, antall) {
 }
 
 function nyttnavn() {
+  ga('send', 'event', 'button', 'vis info');
   this.parent = select("#" + this.id(), ".ordobjekt");
   if (this.parent.elt.classList[1] == "etternavn") {
     navnet = lagetternavn(this.id(), 1);
