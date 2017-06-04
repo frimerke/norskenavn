@@ -97,6 +97,7 @@ function oppdater_label() {
 }
 
 function veksleNavn() {
+  ga('send', 'event', 'button', 'veksle staving');
   this.object = navnobjekt[this.id()];
   console.log(this.object);
   if (this.object.navn == undefined) {
@@ -198,7 +199,7 @@ function rendersubbuttons(ordobjekter) {
   }
   for (var i = 0; i < ord.length; i++){
     if (ordobjekter[i].navn.length > 1) {
-      cyclebutton = createDiv("<i onclick=\"ga('send', 'event', 'button', 'veksle staving')\" class='fa fa-refresh' aria-hidden='true'></i>");
+      cyclebutton = createDiv("<i class='fa fa-refresh' aria-hidden='true'></i>");
       cyclebutton.class("cyclebutton subbutton");
       cyclebutton.id(i)
       cyclebutton.parent(ord[i]);
@@ -210,7 +211,7 @@ function rendersubbuttons(ordobjekter) {
     nyttnavnbutton.parent(ord[i]);
     nyttnavnbutton.mousePressed(nyttnavn);
     if (ordobjekter[i].betydning != null) {
-      infobutton = createDiv("<i onclick=\"\" class='fa fa-info-circle' aria-hidden='true'></i>");
+      infobutton = createDiv("<i class='fa fa-info-circle' aria-hidden='true'></i>");
       infobutton.class("infobutton subbutton");
       infobutton.id(i);
       infobutton.parent(ord[i]);
@@ -306,7 +307,7 @@ function lagetternavn(teller, antall) {
 }
 
 function nyttnavn() {
-  ga('send', 'event', 'button', 'vis info');
+  ga('send', 'event', 'button', 'bytt ett navn');
   this.parent = select("#" + this.id(), ".ordobjekt");
   if (this.parent.elt.classList[1] == "etternavn") {
     navnet = lagetternavn(this.id(), 1);
