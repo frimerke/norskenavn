@@ -43,6 +43,21 @@
 <body>
   <img src="data/shiny-apple.png" style="display:block;float:left;height:3.5em;margin-top: 0.7em;margin-left:1em;margin-right:-1em;"><span id="logo">nyttnavn.no</span><br>
   <span style="margin-left:1.4em;">Navnegenerator for norske navn med mange muligheter.</span>
+  <div class="dialog" id="infodiv" title="Info">
+    <h2>Velkommen til nyttnavn.no</h2>
+    <p>En navnegenerator for skribenter og andre kreative, foreldre på leting, eller andre med en interesse for navn. Generatoren forsøker å lage troverdige navn,
+      men resultatene er ikke vektet etter popularitet (så et lite brukt navn vil dukke opp like ofte som et mer populært et, så lenge begge oppfyller reglene og
+      begrensningene satt under "instillinger").</p>
+      <h3>De viktigste knappene og funksjonene:</h3>
+      <ul>
+        <li><strong>Nytt navn</strong> - lager et nytt navn i tråd med reglene satt under "fornavn" og "etternavn"-fanene.</li>
+        <li><i class="fa fa-floppy-o"></i> - Tar det nåværende navnet og lagrer det under "lagrede navn"-fanen. Lagrede navn forblir fra besøk til besøk.</li>
+        <li><i class='fa fa-plus-circle' aria-hidden='true'></i> - bytter ut et enkelt navn med et annet, i tråd med reglene satt under "fornavn" og "etternavn".</li>
+        <li><i class='fa fa-refresh' aria-hidden='true'></i> - Veksler mellom skrivemåter for et enkelt navn. Denne knappen er bare synlig om navnet har andre skrivemåter.</li>
+        <li><i class='fa fa-info-circle' aria-hidden='true'></i> - Åpner en boks med ytterligere info om et navn. Denne knappen er bare synlig om navnet har oppført ytterligere info.</li>
+      </ul>
+  </div>
+  <div id="infoknapp"><i class="fa fa-info-circle" aria-hidden="true"></i></div>
   <div id="navndiv"></div>
 
   <div id="knappdiv">

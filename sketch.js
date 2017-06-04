@@ -61,6 +61,21 @@ function setup() {
   });
   } );
 
+  $( function() {
+    $( "#infodiv" ).dialog({
+      modal: true,
+      draggable: false,
+      width: 500,
+      autoOpen: false,
+      closeText: "x",
+      title: ""
+    });
+  } );
+
+  $( "#infoknapp" ).on( "click", function() {
+      $( "#infodiv" ).dialog( "open" );
+    });
+
   genderlist = [fornavn_menn, fornavn_kvinner, fornavn_felles]
   fornavn = settgender();
 

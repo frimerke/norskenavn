@@ -175,3 +175,67 @@ input[type=radio]:checked + label{
 label + input[type=radio] + label {
   border: solid 1px white;
 }
+
+#infoknapp {
+  position: fixed;
+  left: 100%;
+  top: 1%;
+  margin-left: -60px;
+  font-size: 3.5em;
+  color: gray;
+}
+
+#infoknapp:hover {
+  color: black;
+}
+
+.ui-dialog {
+	position: absolute;
+  background-color: white;
+	top: 0;
+	left: 0;
+	padding: .2em;
+	outline: 0;
+  border-radius: 10px;
+  border: solid 2px gray;
+}
+.ui-dialog .ui-dialog-titlebar {
+	padding: .4em 1em;
+	position: relative;
+}
+
+}
+.ui-dialog .ui-dialog-title {
+	float: left;
+	margin: .1em 0;
+	white-space: nowrap;
+	width: 90%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	position: absolute;
+	right: .3em;
+	top: 50%;
+	width: 20px;
+	margin: -10px 0 0 0;
+	padding: 1px;
+	height: 20px;
+}
+
+.ui-dialog .ui-dialog-content {
+	position: relative;
+	border: 0;
+	padding: .5em 1em;
+	background: none;
+	overflow: auto;
+}
+
+/*.ui-widget-overlay {
+	position: fixed;
+  color: red;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}*/
