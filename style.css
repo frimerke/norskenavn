@@ -47,7 +47,7 @@ label {
 }
 
 #knappen:hover {
-  background-color: grey;
+  border: 3px solid black;
 }
 
 #lagre {
@@ -64,7 +64,7 @@ label {
 }
 
 #lagre:hover {
-  background-color: grey;
+  border: 3px solid black;
 }
 
 #kontrolldiv {
@@ -75,12 +75,15 @@ label {
 }
 
 .kategori {
-  background-color: #50ed4e;
   background-color: #50ce4e;
   border-radius: 8px;
   border: 3px solid white;
   padding-top: 0.3em;
   height: 1.7em;
+}
+
+.kategori:hover {
+  border: 3px solid black;
 }
 
 .gardinboks {
@@ -174,6 +177,10 @@ input[type=radio]:checked + label{
 
 label + input[type=radio] + label {
   border: solid 1px white;
+}
+
+#infodiv {
+  display: none;
 }
 
 #infoknapp {
