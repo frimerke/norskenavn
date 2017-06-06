@@ -2,7 +2,7 @@ var namediv;
 var lagreboks;
 var tagselect;
 var allenavn = [];
-var min_etternavn_stavelser = 0;
+var min_etternavn_stavelser = -1;
 
 function setup() {
   navnobjekt = [];
