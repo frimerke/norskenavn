@@ -87,11 +87,13 @@ function setup() {
 }
 
 function lagre() {
+  ga('send', 'event', 'button', 'lagre navn');
   lagreboks.html(lagreboks.html() + "<p>" + namediv.elt.innerText + " <i class='fa fa-times deletethis' aria-hidden='true'></i></p>");
   localStorage.setItem("lagredenavn", lagreboks.html());
 }
 
 function oppdater_label() {
+  ga('send', 'event', 'slider', 'endret antall navn');
   antall_fornavn_label.html(antall_fornavn.value());
   antall_etternavn_label.html(antall_etternavn.value());
 }
@@ -281,6 +283,7 @@ function lagetternavn(teller, antall) {
   }
 
   if (egetetternavn.value() != "") {
+    ga('send', 'event', 'var', 'nytt med eget etternavn');
     var e = 1;
     var nyttetternavn = " <span class='ordobjekt etternavn' id='" + i + "'>" + egetetternavn.value() + "</span> ";
     plaintext += egetetternavn.value();
