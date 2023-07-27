@@ -1,36 +1,49 @@
 body {
   font-family: 'Dosis', sans-serif;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+
+select {
+  height: 4rem;
+  width: 10rem;
+  font-size: 2rem;
 }
 
 #navndiv {
-  font-size: 7em;
-  color: black;
+  display: block;
+  font-size: 8rem;
   font-family: 'Merriweather Sans', cursive;
-  margin: auto;
-  margin-top: 3%;
-  margin-bottom: 55px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   width: 100%;
-  /*height: 30%;*/
   text-align: center;
 }
 
 #logo {
-  font-size: 3em;
-  margin-left: 0.5em;
-  /*margin-top: 0.2em;*/
+  font-size: 5rem;
+  margin-left: 1rem;
   display: inline;
+}
+
+header > img {
+  float: left;
+  display: inline;
+  height: 6rem;
 }
 
 #knappdiv {
   margin: auto;
   width: 100%;
   text-align: center;
-}
-
-label {
-  margin-right: 5px;
-  margin-bottom: 7px;
-  margin-left: 3px;
 }
 
 #knappen {
@@ -69,17 +82,17 @@ label {
 
 #kontrolldiv {
   margin: auto;
-  margin-top: 30px;
-  width: 40%;
+  padding-inline: 1rem;
+  margin-top: 3rem;
   text-align: center;
+  width: 50rem;
 }
 
 .kategori {
   background-color: #50ce4e;
   border-radius: 8px;
   border: 3px solid white;
-  padding-top: 0.3em;
-  height: 1.7em;
+  padding: 0.5rem
 }
 
 .kategori:hover {
@@ -184,7 +197,8 @@ label + input[type=radio] + label {
 }
 
 #infoknapp {
-  position: fixed;
+  display: inline;
+  float: right;
   left: 100%;
   top: 1%;
   margin-left: -60px;
@@ -195,54 +209,3 @@ label + input[type=radio] + label {
 #infoknapp:hover {
   color: black;
 }
-
-.ui-dialog {
-	position: absolute;
-  background-color: white;
-	top: 0;
-	left: 0;
-	padding: .2em;
-	outline: 0;
-  border-radius: 10px;
-  border: solid 2px gray;
-}
-.ui-dialog .ui-dialog-titlebar {
-	padding: .4em 1em;
-	position: relative;
-}
-
-}
-.ui-dialog .ui-dialog-title {
-	float: left;
-	margin: .1em 0;
-	white-space: nowrap;
-	width: 90%;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-.ui-dialog .ui-dialog-titlebar-close {
-	position: absolute;
-	right: .3em;
-	top: 50%;
-	width: 20px;
-	margin: -10px 0 0 0;
-	padding: 1px;
-	height: 20px;
-}
-
-.ui-dialog .ui-dialog-content {
-	position: relative;
-	border: 0;
-	padding: .5em 1em;
-	background: none;
-	overflow: auto;
-}
-
-/*.ui-widget-overlay {
-	position: fixed;
-  color: red;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}*/

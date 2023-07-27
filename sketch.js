@@ -87,19 +87,16 @@ function setup() {
 }
 
 function lagre() {
-  ga('send', 'event', 'button', 'lagre navn');
   lagreboks.html(lagreboks.html() + "<p>" + namediv.elt.innerText + " <i class='fa fa-times deletethis' aria-hidden='true'></i></p>");
   localStorage.setItem("lagredenavn", lagreboks.html());
 }
 
 function oppdater_label() {
-  ga('send', 'event', 'slider', 'endret antall navn');
   antall_fornavn_label.html(antall_fornavn.value());
   antall_etternavn_label.html(antall_etternavn.value());
 }
 
 function veksleNavn() {
-  ga('send', 'event', 'button', 'veksle staving');
   this.object = navnobjekt[this.id()];
   console.log(this.object);
   if (this.object.navn == undefined) {
@@ -310,7 +307,6 @@ function lagetternavn(teller, antall) {
 }
 
 function nyttnavn() {
-  ga('send', 'event', 'button', 'bytt ett navn');
   this.parent = select("#" + this.id(), ".ordobjekt");
   if (this.parent.elt.classList[1] == "etternavn") {
     navnet = lagetternavn(this.id(), 1);
